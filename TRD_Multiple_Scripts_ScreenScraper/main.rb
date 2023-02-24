@@ -24,8 +24,9 @@ end
 # Read all the results for all the 'scripts'
 def get_results(scripts, days_ago)
   # Set the maximum age for a result
-  starting_from_date = Time.now.to_date - days_ago
-  puts "Retrieving results from last #{days_ago} days (starting from #{starting_from_date})"
+  today = Time.now.to_date
+  starting_from_date = today - days_ago
+  puts "Retrieving results from last #{days_ago} days (from #{starting_from_date} to #{today})"
 
   # TRD root
   trd_root_url = "http://phx-test-results.sonosite.com"
@@ -33,7 +34,7 @@ def get_results(scripts, days_ago)
   # Visit the 'results page' for all scripts
   script_results = []
   scripts.each do |script|
-    print "Loading results for '#{script[:script_name]}' (from Jenkins job '#{script[:job]}')"
+    print "Retrieving results for '#{script[:script_name]}' (from Jenkins job '#{script[:job]}')"
     # build the URL for the TRD query
     trd_results_url = "#{trd_root_url}/script_results?script_path=#{script[:script_name]}"
     # navigate to the page and get the HTML content
@@ -81,14 +82,17 @@ end
 
 # Dump the results on a CSV file
 def generate_csv_file(file_name, script_results)
-  puts "Generating '#{file_name}' (with #{script_results.size} results)"
   File.open(file_name, "w" ) do |file|
+    total_results = 0
     file.write("owner,job,script_name,product,bom,sw_ver,time_stamp,pass,reason,detail_link\n")
     script_results.each do |script_result|
-      script_result["results"].each do |result|
+      results = script_result["results"]
+      results.each do |result|
         file.write("#{script_result[:owner]},#{script_result[:job]},#{script_result[:script_name]},#{result.values.join(",")}\n")
       end
+      total_results += results.size
     end
+    puts "Generated '#{file_name}' (referencing #{script_results.size} scripts, with #{total_results} results)"
   end
 end
 
@@ -105,7 +109,7 @@ results_always_fail_failing = select_with_result(results_all, "fail") # could be
 results_inconsistent = results_all - results_always_passing - results_always_fail_failing
 
 # Generate result files
-generate_csv_file("results_all.csv", results_all)
-generate_csv_file("results_always_passing.csv", results_always_passing)
-generate_csv_file("results_always_failing.csv", results_always_fail_failing)
-generate_csv_file("results_inconsistent.csv", results_inconsistent)
+generate_csv_file("results_all_scripts.csv", results_all)
+generate_csv_file("results_always_passing_scripts.csv", results_always_passing)
+generate_csv_file("results_always_failing_scripts.csv", results_always_fail_failing)
+generate_csv_file("results_inconsistently_failing_scripts.csv", results_inconsistent)
