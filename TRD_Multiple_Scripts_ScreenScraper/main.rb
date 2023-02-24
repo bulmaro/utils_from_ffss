@@ -7,6 +7,7 @@ def read_script_list(file_name)
   scripts = []
   File.open(file_name, "r") do |file|
     file.each_line do |line|
+      next if line.strip.empty?
       fields = line.split(" ")
       scripts << { :owner => fields[0], :job => fields[1], :script_name => fields[2] }
     end
@@ -35,14 +36,17 @@ def get_results(scripts, days_ago)
   script_results = []
   scripts.each do |script|
     print "Retrieving results for '#{script[:script_name]}' (from Jenkins job '#{script[:job]}')"
+
     # build the URL for the TRD query
     trd_results_url = "#{trd_root_url}/script_results?script_path=#{script[:script_name]}"
     # navigate to the page and get the HTML content
-    doc = Nokogiri::HTML(open(trd_results_url))
+    page_content = Nokogiri::HTML(open(trd_results_url))
     # extract the table
-    results_table = doc.css('#script_results').first
+    results_table = page_content.css('#script_results').first
+
     # Initialize the 'script result' hash with same fields as the 'script'
     script_result = script.clone
+
     # Select recent results from the table
     results = []
     results_table.xpath('.//tr').each do |result_row|
@@ -54,18 +58,21 @@ def get_results(scripts, days_ago)
         result["product"] = get_field_value(result_info, "product")
         result["bom"] = get_field_value(result_info, "bom")
         result["sw_ver"] = get_field_value(result_info, "build")
-        result["time_stamp"] = time_stamp
+        result["time_stamp"] = time_stamp.to_s
         result["result"] = get_field_value(result_info, "result")
         failure_reason = get_field_value(result_info, "failure_reasons")
         result["reason"] = (failure_reason.empty? ? "n/a" : failure_reason)
         result["detail_link"] = "#{trd_root_url}#{result_info.at_css("[id=#{'name'}]").inner_html.match(/href="([^"]+)"/)[1]}"
         results << result
       end
-      script_result["results"] = results
     end
+
     puts " - #{results.size} results"
+
+    script_result["results"] = results
     script_results << script_result
   end
+
   script_results
 end
 
@@ -84,14 +91,22 @@ end
 def generate_csv_file(file_name, script_results)
   File.open(file_name, "w" ) do |file|
     total_results = 0
-    file.write("owner,job,script_name,product,bom,sw_ver,time_stamp,pass,reason,detail_link\n")
-    script_results.each do |script_result|
-      results = script_result["results"]
-      results.each do |result|
-        file.write("#{script_result[:owner]},#{script_result[:job]},#{script_result[:script_name]},#{result.values.join(",")}\n")
+
+    if script_results.length > 0
+      # Generate header using first result's keys
+      header = script_results.first
+      file.write("#{(header.keys[0...-1] | header['results'].first.keys).join(',')}\n")
+
+      # Write each result
+      script_results.each do |script_result|
+        results = script_result["results"]
+        results.each do |result|
+          file.write("#{(script_result.values[0...-1] | result.values).join(",")}\n")
+        end
+        total_results += results.size
       end
-      total_results += results.size
     end
+
     puts "Generated '#{file_name}' (referencing #{script_results.size} scripts, with #{total_results} results)"
   end
 end
@@ -109,7 +124,11 @@ results_always_fail_failing = select_with_result(results_all, "fail") # could be
 results_inconsistent = results_all - results_always_passing - results_always_fail_failing
 
 # Generate result files
-generate_csv_file("results_all_scripts.csv", results_all)
-generate_csv_file("results_always_passing_scripts.csv", results_always_passing)
-generate_csv_file("results_always_failing_scripts.csv", results_always_fail_failing)
-generate_csv_file("results_inconsistently_failing_scripts.csv", results_inconsistent)
+results_file_location = "results"
+FileUtils.mkdir_p(results_file_location)
+Dir.chdir(results_file_location) do
+  generate_csv_file("for_all_scripts.csv", results_all)
+  generate_csv_file("for_scripts_always_passing.csv", results_always_passing)
+  generate_csv_file("for_scripts_always_failing.csv", results_always_fail_failing)
+  generate_csv_file("for_scripts_inconsistently_failing.csv", results_inconsistent)
+end
