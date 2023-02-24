@@ -22,10 +22,10 @@ def get_field_value(result_info, field_name)
 end
 
 # Read all the results for all the 'scripts'
-DAYS_AGO = 30 # from these last days
-def get_results(scripts)
+def get_results(scripts, days_ago)
   # Set the maximum age for a result
-  starting_from_date = Time.now - (DAYS_AGO * 24 * 60 * 60)
+  starting_from_date = Time.now.to_date - days_ago
+  puts "Retrieving results from last #{days_ago} days (starting from #{starting_from_date})"
 
   # TRD root
   trd_root_url = "http://phx-test-results.sonosite.com"
@@ -33,6 +33,7 @@ def get_results(scripts)
   # Visit the 'results page' for all scripts
   script_results = []
   scripts.each do |script|
+    print "Loading results for '#{script[:script_name]}' (from Jenkins job '#{script[:job]}')"
     # build the URL for the TRD query
     trd_results_url = "#{trd_root_url}/script_results?script_path=#{script[:script_name]}"
     # navigate to the page and get the HTML content
@@ -45,8 +46,8 @@ def get_results(scripts)
     results = []
     results_table.xpath('.//tr').each do |result_row|
       result_info = result_row.css('td')
-      time_stamp = DateTime.parse(get_field_value(result_info, "start_time")).to_time
-      if time_stamp > starting_from_date
+      time_stamp = DateTime.parse(get_field_value(result_info, "start_time"))
+      if time_stamp.to_date >= starting_from_date
         # Extract certain fields from the current 'result'
         result = {}
         result["product"] = get_field_value(result_info, "product")
@@ -61,6 +62,7 @@ def get_results(scripts)
       end
       script_result["results"] = results
     end
+    puts " - #{results.size} results"
     script_results << script_result
   end
   script_results
@@ -79,6 +81,7 @@ end
 
 # Dump the results on a CSV file
 def generate_csv_file(file_name, script_results)
+  puts "Generating '#{file_name}' (with #{script_results.size} results)"
   File.open(file_name, "w" ) do |file|
     file.write("owner,job,script_name,product,bom,sw_ver,time_stamp,pass,reason,detail_link\n")
     script_results.each do |script_result|
@@ -89,9 +92,12 @@ def generate_csv_file(file_name, script_results)
   end
 end
 
-# Read the results from TRD
+# Read the script list
 script_list = read_script_list("script_list.txt")
-results_all = get_results(script_list)
+
+# Read the results from TRD
+days_ago = (ARGV.size == 0 ? 30 : ARGV[0].to_i)
+results_all = get_results(script_list, days_ago)
 
 # Filter some results
 results_always_passing = select_with_result(results_all, "pass")
