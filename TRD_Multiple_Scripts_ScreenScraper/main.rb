@@ -120,7 +120,7 @@ results_all = get_results(script_list, days_ago)
 
 # Filter some results
 results_always_passing = select_with_result(results_all, "pass")
-results_always_fail_failing = select_with_result(results_all, "fail") # could be "fail|aborted|unrun"
+results_always_failing = select_with_result(results_all, "fail") # could be "fail|aborted|unrun"
 results_inconsistent = results_all - results_always_passing - results_always_fail_failing
 
 # Generate result files
@@ -129,6 +129,6 @@ FileUtils.mkdir_p(results_file_location)
 Dir.chdir(results_file_location) do
   generate_csv_file("for_all_scripts.csv", results_all)
   generate_csv_file("for_scripts_always_passing.csv", results_always_passing)
-  generate_csv_file("for_scripts_always_failing.csv", results_always_fail_failing)
+  generate_csv_file("for_scripts_always_failing.csv", results_always_failing)
   generate_csv_file("for_scripts_inconsistently_failing.csv", results_inconsistent)
 end
