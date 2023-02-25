@@ -1,0 +1,18 @@
+script_list_file_name = "script_list.txt"
+
+desc "Using file with Jenkins job names, generate a file containing corresponding matrix file names"
+task :jenkins_jobs_to_matrix_list do
+
+end
+
+desc "Using file with matrix list, generate a file containing list of script file names"
+task :matrix_list_to_script_list do
+
+end
+
+desc "Using file with list of script, retrieve test results from TRD"
+task :test_results_from_script_list, [:days_ago] do |t, args|
+  require './test_results_from_script_list.rb'
+  args.with_defaults(:days_ago => 30)
+  test_results_from_script_list(script_list_file_name, args.days_ago.to_i)
+end

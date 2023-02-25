@@ -129,24 +129,31 @@ def generate_csv_file(file_name, script_results)
   end
 end
 
-# Read the script list
-script_list = read_script_list("script_list.txt")
+# Main task implementation
+def test_results_from_script_list(script_list_file_name, days_ago)
+  # Read the script list
+  script_list = read_script_list(script_list_file_name)
 
-# Read the results from TRD
-days_ago = (ARGV[0] || "30").to_i
-results_all = get_results(script_list, days_ago)
+  # Read the results from TRD
+  results_all = get_results(script_list, days_ago)
 
-# Filter some results
-results_always_passing = select_with_result(results_all, "pass")
-results_always_failing = select_with_result(results_all, "fail") # could be "fail|aborted|unrun"
-results_inconsistent = results_all - results_always_passing - results_always_failing
+  # Filter some results
+  results_always_passing = select_with_result(results_all, "pass")
+  results_always_failing = select_with_result(results_all, "fail") # could be "fail|aborted|unrun"
+  results_inconsistent = results_all - results_always_passing - results_always_failing
 
-# Generate result files
-results_file_location = "results"
-FileUtils.mkdir_p(results_file_location)
-Dir.chdir(results_file_location) do
-  generate_csv_file("for_all_scripts.csv", results_all)
-  generate_csv_file("for_scripts_always_passing.csv", results_always_passing)
-  generate_csv_file("for_scripts_always_failing.csv", results_always_failing)
-  generate_csv_file("for_scripts_inconsistently_failing.csv", results_inconsistent)
+  # Generate result files
+  results_file_location = "results"
+  FileUtils.mkdir_p(results_file_location)
+  Dir.chdir(results_file_location) do
+    generate_csv_file("for_all_scripts.csv", results_all)
+    generate_csv_file("for_scripts_always_passing.csv", results_always_passing)
+    generate_csv_file("for_scripts_always_failing.csv", results_always_failing)
+    generate_csv_file("for_scripts_inconsistently_failing.csv", results_inconsistent)
+  end
+end
+
+if __FILE__ == $0
+  days_ago = (ARGV[0] || "30").to_i
+  test_results_from_script_list("script_list.txt", days_ago)
 end
