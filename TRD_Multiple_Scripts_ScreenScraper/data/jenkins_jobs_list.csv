@@ -1,0 +1,9 @@
+owner,job_name
+Bulmaro,PHX_Nightly_Annotations
+Bulmaro,PHX_Nightly_Basic_Measurements
+Bulmaro,PHX_Nightly_Patient_Reg
+Bulmaro,PHX_Nightly_BVT
+Bulmaro,PHX_Study_List_Nightly_Test
+Bulmaro,PHX_Nightly_Study_Mngmnt_Smoke_Test
+Helen,PHX_Nightly_Integration_Test
+Helen,PHX_Nightly_Analysis_Imaging_Test
