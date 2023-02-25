@@ -84,6 +84,31 @@ def select_with_result(script_results, expected_result)
   end
 end
 
+# Dump the results on a CSV file
+def write_results_to_csv_file(file_name, script_results)
+  File.open(file_name, "w" ) do |file|
+    total_results = 0
+
+    if script_results.length > 0
+      # Generate header using first result's keys
+      header = script_results.first
+      file.write("#{(header.keys[0...-1] + header['results'].first.keys).join(',')}\n")
+
+      # Write each result
+      script_results.each do |script_result|
+        results = script_result["results"]
+        results.each do |result|
+          file.write("#{(script_result.values[0...-1] + result.values).join(",")}\n")
+        end
+        total_results += results.size
+      end
+    end
+
+    puts "Generated '#{file_name}' (referencing #{script_results.size} scripts, with #{total_results} results)"
+  end
+end
+
+
 # Main task implementation
 def test_results_from_script_list(script_list_file_name, days_ago)
   this_dir = Dir.pwd
@@ -101,10 +126,10 @@ def test_results_from_script_list(script_list_file_name, days_ago)
   # Generate result files
   FileUtils.mkdir_p(RESULTS_FILE_LOCATION)
   Dir.chdir(RESULTS_FILE_LOCATION) do
-    write_csv_file("for_all_scripts.csv", results_all)
-    write_csv_file("for_scripts_always_passing.csv", results_always_passing)
-    write_csv_file("for_scripts_always_failing.csv", results_always_failing)
-    write_csv_file("for_scripts_inconsistently_failing.csv", results_inconsistent)
+    write_results_to_csv_file("for_all_scripts.csv", results_all)
+    write_results_to_csv_file("for_scripts_always_passing.csv", results_always_passing)
+    write_results_to_csv_file("for_scripts_always_failing.csv", results_always_failing)
+    write_results_to_csv_file("for_scripts_inconsistently_failing.csv", results_inconsistent)
   end
 end
 
