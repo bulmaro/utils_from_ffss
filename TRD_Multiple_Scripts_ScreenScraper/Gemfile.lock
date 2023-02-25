@@ -1,17 +1,25 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    childprocess (3.0.0)
+    ffi (1.15.5-x86-mingw32)
     mini_portile2 (2.4.0)
     nokogiri (1.10.10-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     rake (12.0.0)
+    rubyzip (2.3.2)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
 
 PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  ffi
   nokogiri (>= 1.10.10)
   rake
+  selenium-webdriver
 
 BUNDLED WITH
    2.3.23
