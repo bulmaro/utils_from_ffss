@@ -1,2 +1,4 @@
 *.csv
-jenkins_credentials.rb
+.env
+logs/
+results/
