@@ -86,26 +86,17 @@ end
 
 # Dump the results on a CSV file
 def write_results_to_csv_file(file_name, script_results)
-  File.open(file_name, "w" ) do |file|
-    total_results = 0
-
-    if script_results.length > 0
-      # Generate header using first result's keys
-      header = script_results.first
-      file.write("#{(header.keys[0...-1] + header['results'].first.keys).join(',')}\n")
-
-      # Write each result
-      script_results.each do |script_result|
-        results = script_result["results"]
-        results.each do |result|
-          file.write("#{(script_result.values[0...-1] + result.values).join(",")}\n")
-        end
-        total_results += results.size
-      end
+  all_results = []
+  script_results.each do |script_result|
+    result_header = script_result.reject { |k,v| k == "results" }
+    script_result["results"].each do |result_detail|
+      all_results << result_header.merge(result_detail)
     end
-
-    puts "Generated '#{file_name}' (referencing #{script_results.size} scripts, with #{total_results} results)"
   end
+
+  write_csv_file(file_name, all_results)
+
+  puts "Generated '#{file_name}' (referencing #{script_results.size} scripts, totaling #{all_results.length} results)"
 end
 
 # Main task implementation

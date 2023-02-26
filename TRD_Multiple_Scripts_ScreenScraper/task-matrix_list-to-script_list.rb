@@ -2,6 +2,7 @@ require 'fileutils'
 require_relative 'global_settings'
 require_relative 'utilities'
 
+# Based from directory TEST_SCRIPT_ROOT, get all the test files referenced by each matrix entry
 def retrieve_script_list(matrix_list)
   all_scripts = []
 
@@ -43,10 +44,11 @@ def retrieve_script_list(matrix_list)
   all_scripts
 end
 
+# Main task implementation
 def matrix_list_to_script_list(matrix_list_file_name, script_list_file_name)
   if ! Dir.exists? TEST_SCRIPTS_ROOT
-    puts "Error: 'test_scripts' directory is set to '#{TEST_SCRIPTS_ROOT}' but does not exist"
-    puts "Update the value of constant TEST_SCRIPTS_ROOT in file 'global_settings.rb'"
+    puts "Error: Constant TEST_SCRIPTS_ROOT='#{TEST_SCRIPTS_ROOT}' (pointing to 'test_scripts' root). Cannot be accessed."
+    puts "       Update its value in file 'global_settings.rb'"
     exit 1
   end
   FileUtils.mkdir_p(DATA_FILE_LOCATION)
@@ -58,6 +60,5 @@ def matrix_list_to_script_list(matrix_list_file_name, script_list_file_name)
 end
 
 if __FILE__ == $0
-  matrix_list_to_script_list( MATRIX_LIST, SCRIPT_LIST)
+  matrix_list_to_script_list(MATRIX_LIST, SCRIPT_LIST)
 end
-
