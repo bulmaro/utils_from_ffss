@@ -1,5 +1,6 @@
 require 'selenium-webdriver'
 require_relative 'global_settings'
+require_relative 'jenkins_credentials'
 require_relative 'utilities'
 
 # Read all the matrix file names from the jenkins job configuration pages
