@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     childprocess (3.0.0)
+    dotenv (2.8.1)
     ffi (1.15.5-x86-mingw32)
     mini_portile2 (2.4.0)
     nokogiri (1.10.10-x86-mingw32)
@@ -16,6 +17,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  dotenv
   ffi
   nokogiri (>= 1.10.10)
   rake
