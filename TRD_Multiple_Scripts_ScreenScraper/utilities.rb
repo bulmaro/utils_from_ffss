@@ -1,5 +1,4 @@
 require 'csv'
-require_relative 'global_settings'
 
 def read_csv_file(file_name)
   elements = []

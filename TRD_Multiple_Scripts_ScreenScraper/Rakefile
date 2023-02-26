@@ -4,25 +4,25 @@ Rake.application.options.silent = true
 
 desc "Using file with Jenkins job names, generate a file containing corresponding matrix file names"
 task :jenkins_jobs_to_matrix_list do
-  require_relative 'jenkins_jobs_to_matrix_list'
+  require_relative 'task-jenkins_jobs-to-matrix_list'
   jenkins_jobs_to_matrix_list(JENKINS_JOB_LIST, MATRIX_LIST)
 end
 
 desc "Using file with matrix list, generate a file containing list of script file names"
 task :matrix_list_to_script_list do
-  require_relative 'matrix_list_to_script_list'
+  require_relative 'task-matrix_list-to-script_list'
   matrix_list_to_script_list(MATRIX_LIST, SCRIPT_LIST)
 end
 
 desc "Using file with list of script, retrieve test results from TRD"
-task :test_results_from_script_list, [:days_ago] do |t, args|
-  require_relative 'test_results_from_script_list'
+task :script_list_to_test_results, [:days_ago] do |t, args|
+  require_relative 'task-script_list-to-test_results'
   args.with_defaults(:days_ago => DEFAULT_DAYS_AGO)
   test_results_from_script_list(SCRIPT_LIST, args.days_ago.to_i)
 end
 
 desc "Perform all tasks. From reading the Jenkins Job list, to obtaining the test results related"
-task :all => [:first_of_all, :jenkins_jobs_to_matrix_list, :matrix_list_to_script_list, :test_results_from_script_list] do
+task :all => [:first_of_all, :jenkins_jobs_to_matrix_list, :matrix_list_to_script_list, :script_list_to_test_results] do
   puts "Done!"
 end
 

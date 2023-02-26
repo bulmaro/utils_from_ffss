@@ -108,7 +108,6 @@ def write_results_to_csv_file(file_name, script_results)
   end
 end
 
-
 # Main task implementation
 def test_results_from_script_list(script_list_file_name, days_ago)
   this_dir = Dir.pwd
