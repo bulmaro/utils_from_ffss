@@ -21,8 +21,14 @@ task :script_list_to_test_results, [:days_ago] do |t, args|
   test_results_from_script_list(SCRIPT_LIST, args.days_ago.to_i)
 end
 
+desc "Take the '#{RESULTS_ALL}' file and create a copy timestamped with current date & time"
+task :create_time_stamped_all_results_file do
+  require_relative 'task-create-all-results-file-timestamped'
+  create_all_results_file_timestamped
+end
+
 desc "Perform all tasks. From reading the Jenkins Job list, to obtaining the test results related"
-task :all => [:first_of_all, :jenkins_jobs_to_matrix_list, :matrix_list_to_script_list, :script_list_to_test_results] do
+task :all => [:first_of_all, :jenkins_jobs_to_matrix_list, :matrix_list_to_script_list, :script_list_to_test_results, :create_time_stamped_all_results_file] do
   puts "Done!"
 end
 

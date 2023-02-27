@@ -116,10 +116,10 @@ def test_results_from_script_list(script_list_file_name, days_ago)
   # Generate result files
   FileUtils.mkdir_p(RESULTS_FILE_LOCATION)
   Dir.chdir(RESULTS_FILE_LOCATION) do
-    write_results_to_csv_file("for_all_scripts.csv", results_all)
-    write_results_to_csv_file("for_scripts_always_passing.csv", results_always_passing)
-    write_results_to_csv_file("for_scripts_always_failing.csv", results_always_failing)
-    write_results_to_csv_file("for_scripts_inconsistently_failing.csv", results_inconsistent)
+    write_results_to_csv_file(RESULTS_ALL, results_all)
+    write_results_to_csv_file(RESULTS_SCRIPTS_ALWAYS_PASSING, results_always_passing)
+    write_results_to_csv_file(RESULTS_SCRIPTS_ALWAYS_FAILING, results_always_failing)
+    write_results_to_csv_file(RESULTS_SCRIPTS_INCONSISTENTLY_FAILING, results_inconsistent)
   end
 end
 
