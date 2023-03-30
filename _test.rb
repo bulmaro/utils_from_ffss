@@ -108,3 +108,4 @@ puts regenerate_labels("PHX", "10.192.144.183") # On my cube
 # puts regenerate_labels("ST", "10.192.151.32") # An ST on the CTL
 # puts regenerate_labels("ST", "10.192.151.64") # An ST on the CTL
 # puts regenerate_labels("ST", "localhost") # Which for now is simulating an ST
+
