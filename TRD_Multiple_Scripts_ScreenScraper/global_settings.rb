@@ -2,7 +2,7 @@ require 'dotenv/load'
 
 TRD_ROOT_URL = "http://phx-test-results.sonosite.com"
 JENKINS_SERVER_URL = "http://sweng-jenkins.sonosite.com:8080/"
-TEST_SCRIPTS_ROOT = 'C:\Users\bulmaro.herrera\work\test_scripts'
+TEST_SCRIPTS_ROOT = 'C:\Users\bulmaro.herrera\work\test_scripts_1'
 RESULTS_FILE_LOCATION = "results"
 DATA_FILE_LOCATION = "data"
 DEFAULT_DAYS_AGO = 30

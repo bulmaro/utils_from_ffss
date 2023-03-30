@@ -1,0 +1,2404 @@
+09:26:49.592 Test suite started 2023-03-29 09:26:49 -0700
+09:26:49.592 Device               : PHX
+09:26:49.592 IP address           : 10.192.144.183
+09:26:49.609 Serial Number        : Q53FW0
+09:26:49.638 Software versions    : BOM                - 3.0.10000581
+09:26:49.638                        OS                 - 100.40.300.6
+09:26:49.638                        Package            - 
+09:26:49.638                        System             - 100.80.300.298                               
+09:26:49.638                        Transducer Package - 100.80.300.015
+09:26:49.654 Programmable devices : ACTL         - ACTL_HF-PHX_2_0_0-PHX_HW-SILBUILD-0007
+09:26:49.654                        DSP_APP      - 100.80.300.020
+09:26:49.654                        GRIFFIN_CORE - GRIFFIN-PHX_2_1_0-PHX_HW_V1-SILBUILD-0009
+09:26:51.552 Selected scanhead    : L12-3   SHdb : 100.80.300.003   s/n : 000000HFL38
+09:26:51.552 Base random seed     : 289423405549763369669187280761708485025
+09:26:51.552 Test executed from   : 10.192.144.102
+09:26:51.552 ============================================================================================================================================================================================================================================================================================================
+09:26:51.552 Test suite cycle 1 of 1 started
+09:26:51.572 Starting test 1 from TestInfo file at pathname C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/phoenix/usb-export-studies.ti
+09:26:51.572 This test uses random seed 337035509541642261354843720405568446108
+09:26:51.572 Testing requirements as specified in the TestInfo file: 
+09:26:52.709 Test 1 of 1 has been started -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+09:26:52.709 Test script name : C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/phoenix/usb-export-studies.ti
+09:26:54.573 The environment variable SONOSITE_REQDB_YAML is not set, and therefore,
+09:26:54.573 no requirements database is being loaded. Please set SONOSITE_REQDB_YAML 
+09:26:54.573 if you wish to use the SonoSiteSRDParser.
+09:26:54.573 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+09:26:54.573 LMiR feature enabled
+09:27:29.644 DICOM archive is NOT configured on system
+09:27:29.646 DICOM storage commit is NOT configured on system
+09:27:29.646 =================================================================
+09:27:29.646 
+09:27:29.646 Delete All studies, enable auto save patient form & auto generate MRN, set clip type to 10s Retrospective
+09:27:29.646 =================================================================
+09:27:39.068 =================================================================
+09:27:39.068 
+09:27:39.068 Deleting All Studies
+09:27:39.068 =================================================================
+09:28:39.775 Will perform 30 exports.
+09:28:39.775 Performing export no. 0
+09:28:44.534 Changing scanhead from L12-3 to P5-1
+09:28:52.941 =================================================================
+09:28:52.941 
+09:28:52.941 Registering Patient 0_0 and saving 1 clips, 0 images.
+09:28:52.941 =================================================================
+09:28:58.095 Exam selected: FocusedCardiac
+09:28:58.095 State transition: set mode to B-MODE
+09:28:58.095 State transition: set mode to B-MODE
+09:28:58.618 State transition: set depth 31.0
+09:29:18.311 State transition: set auto gain adjust level -4
+09:30:09.631 State transition: set optimization Gen
+09:30:15.631 State transition: set acoustic power 100%
+09:30:55.757 State transition: set sector Off
+09:31:01.775 State transition: set dynamic range 2
+09:31:39.539 State transition: set zoom state Off, B-MODE
+09:31:42.406 State transition: set thermal index TIC
+09:31:50.779 State transition: set orientation LR
+09:32:04.867 State transition: set THI Off
+09:32:24.598 State transition: set procedure mode On
+09:32:28.177 State transition: set gain decrease_gain 51
+09:32:31.325 State transition: add label add_arrow
+09:32:42.653 Saving 1 additional clip for mode B-MODE with dual display or color compare enabled
+09:32:42.654 State transition: set mode to B-MODE
+09:32:43.474 State transition: set depth 15.0
+09:33:08.426 State transition: set dynamic range 2
+09:33:42.037 State transition: set auto gain adjust level 4
+09:34:10.822 State transition: set orientation LR
+09:34:22.781 State transition: set optimization Pen
+09:34:28.882 State transition: set zoom state On, B-MODE
+09:34:40.912 State transition: set gain reset
+09:34:45.941 State transition: set THI Off
+09:34:56.505 State transition: set thermal index TIS
+09:35:05.022 State transition: set acoustic power 80%
+09:35:46.695 State transition: set procedure mode Off
+09:35:53.365 State transition: set to dual and activate DualLeftButton
+09:36:07.981 State transition: set gain increase_gain 60
+09:36:11.386 State transition: add label add_arrow
+09:36:22.745 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+09:36:54.424 =================================================================
+09:36:54.424 
+09:36:54.424 Registering Patient 0_1 and saving 0 clips, 0 images.
+09:36:54.424 =================================================================
+09:36:59.605 Exam selected: FocusedCardiac
+09:36:59.605 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+09:37:29.948 *** Waiting for USB export to complete. Perform operations while waiting ***
+09:37:29.979 =================================================================
+09:37:29.979 
+09:37:29.979 Select All studies, export to USB.
+09:37:29.979 =================================================================
+09:37:38.196 *** USB Export iteration: 1 ***
+09:37:50.955 Performing export no. 1
+09:37:56.466 Changing scanhead from P5-1 to L12-3
+09:38:06.435 =================================================================
+09:38:06.435 
+09:38:06.435 Registering Patient 1_0 and saving 0 clips, 0 images.
+09:38:06.435 =================================================================
+09:38:11.995 Exam selected: Nerve
+09:38:11.996 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+09:38:43.669 *** Waiting for USB export to complete. Perform operations while waiting ***
+09:38:43.724 Performing an operation. Total wait time 60 seconds
+09:39:48.474 Changing scanhead from L12-3 to P5-1
+09:40:01.504 Exam selected: Lung
+09:40:06.502 Choosing 'test option' from initial sequence, step [0]: Patient
+09:40:26.757 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+09:40:56.038 =================================================================
+09:40:56.038 
+09:40:56.038 Select All studies, export to USB.
+09:40:56.038 =================================================================
+09:41:04.188 *** USB Export iteration: 2 ***
+09:41:16.854 Performing export no. 2
+09:41:22.205 Changing scanhead from P5-1 to L12-3
+09:41:32.064 =================================================================
+09:41:32.064 
+09:41:32.064 Registering Patient 2_0 and saving 0 clips, 1 images.
+09:41:32.064 =================================================================
+09:41:37.515 Exam selected: Nerve
+09:41:37.516 State transition: set mode to PWDOPPLER
+09:41:37.517 State transition: set mode to PWDOPPLER
+09:41:46.322 State transition: set doppler baseline index 5
+09:41:49.563 State transition: set acoustic power 90%
+09:42:38.990 State transition: set doppler steering angle -20
+09:42:51.399 State transition: set auto trace MeanBelowButton
+09:43:00.957 State transition: set display format to DisplayFormatSplitTwoThirdButton
+09:43:08.009 State transition: set doppler wall flter high
+09:43:16.435 State transition: set doppler volume index 8
+09:43:22.619 State transition: set doppler invert Off
+09:43:30.024 State transition: set doppler sweep speed SLOW_D
+09:43:40.555 State transition: set doppler gate size 6.0 mm
+09:43:48.135 State transition: set doppler angle correct -32
+09:43:52.834 State transition: set doppler scale 7813
+09:43:55.188 State transition: set gain decrease_gain 82
+09:43:59.338 State transition: set freeze state false
+09:44:01.256 State transition: add label add_arrow
+09:44:01.319 State transition: adding skinline msrmnt to PWDOPPLER
+09:44:01.801 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+09:44:32.613 =================================================================
+09:44:32.613 
+09:44:32.613 Registering Patient 2_1 and saving 0 clips, 1 images.
+09:44:32.613 =================================================================
+09:44:38.034 Exam selected: Nerve
+09:44:38.035 State transition: set mode to Color
+09:44:38.035 State transition: set mode to Color
+09:44:44.062 State transition: set depth 4.0
+09:44:47.414 State transition: set color flow high
+09:44:57.824 State transition: set color steering angle -20
+09:45:06.615 State transition: set color hide Off
+09:45:13.115 State transition: set PRF 2358
+09:45:31.079 State transition: set color invert On
+09:45:48.851 State transition: set zoom state Off, Color
+09:45:51.840 State transition: set color wall flter low
+09:46:01.911 State transition: set acoustic power 70%
+09:46:42.843 State transition: set gain increase_gain 61
+09:46:45.219 State transition: set freeze state false
+09:46:47.193 State transition: add label add_arrow
+09:46:47.241 State transition: adding skinline msrmnt to Color
+09:46:52.400 Saving 1 additional image for mode Color with dual display or color compare enabled
+09:46:52.401 State transition: set mode to Color
+09:46:58.984 State transition: set depth 4.0
+09:47:02.302 State transition: set color hide On
+09:47:08.939 State transition: set color invert On
+09:47:15.142 State transition: set color wall flter high
+09:47:28.126 State transition: set zoom state Off, Color
+09:47:31.078 State transition: set color compare to topbottom
+09:47:34.969 State transition: set color steering angle 0
+09:47:49.475 State transition: set acoustic power 100%
+09:48:22.867 State transition: set color flow high
+09:48:31.893 State transition: set PRF 714
+09:49:27.963 State transition: set gain increase_gain 30
+09:49:29.194 State transition: set freeze state true
+09:49:31.629 State transition: add label add_picto
+09:49:37.931 State transition: adding add_ellipse to Color
+09:49:47.005 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+09:50:17.604 *** Waiting for USB export to complete. Perform operations while waiting ***
+09:50:17.639 =================================================================
+09:50:17.639 
+09:50:17.639 Select All studies, export to USB.
+09:50:17.639 =================================================================
+09:50:25.869 *** USB Export iteration: 3 ***
+09:50:38.546 Performing export no. 3
+09:50:43.920 Changing scanhead from L12-3 to P5-1
+09:50:52.754 =================================================================
+09:50:52.754 
+09:50:52.754 Registering Patient 3_0 and saving 0 clips, 1 images.
+09:50:52.754 =================================================================
+09:50:58.310 Exam selected: FocusedCardiac
+09:50:58.311 State transition: set mode to B-MODE
+09:50:58.312 State transition: set mode to B-MODE
+09:50:58.991 State transition: set depth 29.0
+09:51:02.675 State transition: set zoom state Off, B-MODE
+09:51:10.345 State transition: set gain reset
+09:51:15.954 State transition: set orientation UR
+09:51:28.197 State transition: set auto gain adjust level 0
+09:52:16.151 State transition: set optimization Pen
+09:52:19.114 State transition: set procedure mode On
+09:52:25.720 State transition: set dynamic range 0
+09:52:59.744 State transition: set thermal index TIC
+09:53:11.154 State transition: set LVO Off
+09:53:21.637 State transition: set sector On
+09:53:28.247 State transition: set acoustic power 80%
+09:54:13.291 State transition: set THI Off
+09:54:17.410 State transition: set gain decrease_gain 89
+09:54:19.800 State transition: set freeze state false
+09:54:21.752 State transition: add label add_arrow
+09:54:21.799 State transition: adding skinline msrmnt to B-MODE
+09:54:26.830 Saving 1 additional image for mode B-MODE with dual display or color compare enabled
+09:54:26.832 State transition: set mode to B-MODE
+09:54:27.388 State transition: set depth 25.0
+09:54:37.804 State transition: set zoom state On, B-MODE
+09:54:46.841 State transition: set acoustic power 40%
+09:55:32.126 State transition: set THI On
+09:55:39.663 State transition: set orientation LR
+09:55:54.659 State transition: set to dual and activate DualLeftButton
+09:56:16.425 State transition: set optimization Pen
+09:56:19.334 State transition: set thermal index TIS
+09:56:27.846 State transition: set dynamic range -2
+09:56:56.882 State transition: set procedure mode Off
+09:57:03.502 State transition: set auto gain adjust level 3
+09:57:40.101 State transition: set gain decrease_gain 13
+09:57:40.472 State transition: set freeze state true
+09:57:42.866 State transition: add label add_arrow
+09:57:49.069 State transition: adding add_curved_distance to B-MODE
+09:57:59.835 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+09:58:30.504 *** Waiting for USB export to complete. Perform operations while waiting ***
+09:58:30.554 =================================================================
+09:58:30.554 
+09:58:30.554 Select All studies, export to USB.
+09:58:30.554 =================================================================
+09:58:38.716 *** USB Export iteration: 4 ***
+09:58:51.372 Performing export no. 4
+09:58:56.811 Changing scanhead from P5-1 to L12-3
+09:59:06.742 =================================================================
+09:59:06.742 
+09:59:06.742 Registering Patient 4_0 and saving 1 clips, 1 images.
+09:59:06.742 =================================================================
+09:59:12.206 Exam selected: Nerve
+09:59:12.206 State transition: set mode to CPD
+09:59:12.207 State transition: set mode to CPD
+09:59:19.622 State transition: set depth 1.5
+09:59:37.571 State transition: set color steering angle 0
+09:59:46.915 State transition: set acoustic power 30%
+10:00:54.407 State transition: set color hide On
+10:01:04.228 State transition: set PRF 2500
+10:01:26.890 State transition: set zoom state On, CPD
+10:01:32.606 State transition: set color wall flter low
+10:01:42.001 State transition: set color flow med
+10:01:49.974 State transition: set gain decrease_gain 54
+10:01:53.800 State transition: add label add_text
+10:02:05.305 Saving 1 additional clip for mode CPD with dual display or color compare enabled
+10:02:05.307 State transition: set mode to CPD
+10:02:12.102 State transition: set depth 9.0
+10:02:45.687 State transition: set color hide On
+10:02:58.054 State transition: set color flow high
+10:03:08.270 State transition: set color wall flter high
+10:03:16.978 State transition: set color compare to topbottom
+10:03:20.354 State transition: set zoom state On, CPD
+10:03:25.978 State transition: set color steering angle 0
+10:03:38.847 State transition: set acoustic power 70%
+10:04:09.991 State transition: set PRF 1506
+10:04:47.654 State transition: set gain increase_gain 65
+10:04:54.654 State transition: add label add_picto
+10:05:06.006 State transition: set mode to CPD
+10:05:06.009 State transition: set mode to CPD
+10:05:12.615 State transition: set depth 4.0
+10:05:18.867 State transition: set acoustic power 30%
+10:06:10.442 State transition: set color flow med
+10:06:17.520 State transition: set color wall flter med
+10:06:26.499 State transition: set color steering angle 0
+10:06:33.580 State transition: set color hide Off
+10:06:40.030 State transition: set PRF 1506
+10:06:51.709 State transition: set zoom state On, CPD
+10:06:57.480 State transition: set gain increase_gain 73
+10:07:02.456 State transition: set freeze state false
+10:07:04.406 State transition: add label add_arrow
+10:07:04.468 State transition: adding skinline msrmnt to CPD
+10:07:09.502 Saving 1 additional image for mode CPD with dual display or color compare enabled
+10:07:09.503 State transition: set mode to CPD
+10:07:16.021 State transition: set depth 9.0
+10:07:19.352 State transition: set color compare to topbottom
+10:07:23.275 State transition: set color steering angle -20
+10:07:32.068 State transition: set color wall flter med
+10:07:39.321 State transition: set PRF 1812
+10:08:08.683 State transition: set acoustic power 80%
+10:08:40.451 State transition: set color flow low
+10:08:49.296 State transition: set zoom state Off, CPD
+10:08:49.403 State transition: set gain decrease_gain 42
+10:08:55.915 State transition: set freeze state false
+10:08:57.983 State transition: add label add_text
+10:08:58.039 State transition: adding skinline msrmnt to CPD
+10:09:03.070 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:09:34.280 *** Waiting for USB export to complete. Perform operations while waiting ***
+10:09:34.317 =================================================================
+10:09:34.317 
+10:09:34.317 Select All studies, export to USB.
+10:09:34.317 =================================================================
+10:09:42.475 *** USB Export iteration: 5 ***
+10:09:55.168 Performing export no. 5
+10:10:00.544 Changing scanhead from L12-3 to P5-1
+10:10:09.454 =================================================================
+10:10:09.454 
+10:10:09.454 Registering Patient 5_0 and saving 0 clips, 0 images.
+10:10:09.454 =================================================================
+10:10:15.170 Exam selected: FocusedCardiac
+10:10:15.171 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:10:47.023 *** Waiting for USB export to complete. Perform operations while waiting ***
+10:10:47.090 Performing an operation. Total wait time 60 seconds
+10:11:52.640 Changing scanhead from P5-1 to L12-3
+10:12:07.299 Exam selected: Carotid
+10:12:16.572 Choosing 'test option' from initial sequence, step [0]: Patient
+10:12:37.792 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:13:08.829 =================================================================
+10:13:08.829 
+10:13:08.829 Select All studies, export to USB.
+10:13:08.829 =================================================================
+10:13:17.041 *** USB Export iteration: 6 ***
+10:13:30.040 Performing export no. 6
+10:13:35.501 Changing scanhead from L12-3 to P5-1
+10:13:44.395 =================================================================
+10:13:44.395 
+10:13:44.395 Registering Patient 6_0 and saving 0 clips, 0 images.
+10:13:44.395 =================================================================
+10:13:49.974 Exam selected: FocusedCardiac
+10:13:49.975 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:14:21.794 =================================================================
+10:14:21.794 
+10:14:21.794 Registering Patient 6_1 and saving 0 clips, 0 images.
+10:14:21.794 =================================================================
+10:14:27.334 Exam selected: FocusedCardiac
+10:14:27.336 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:14:59.143 *** Waiting for USB export to complete. Perform operations while waiting ***
+10:14:59.220 Performing an operation. Total wait time 60 seconds
+10:16:04.794 Changing scanhead from P5-1 to L12-3
+10:16:19.576 Exam selected: Nerve
+10:16:21.586 Choosing 'test option' from initial sequence, step [0]: Patient
+10:16:49.967 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:17:20.567 =================================================================
+10:17:20.567 
+10:17:20.567 Select All studies, export to USB.
+10:17:20.567 =================================================================
+10:17:28.730 *** USB Export iteration: 7 ***
+10:17:41.451 Performing export no. 7
+10:17:46.918 Changing scanhead from L12-3 to P5-1
+10:17:55.845 =================================================================
+10:17:55.845 
+10:17:55.845 Registering Patient 7_0 and saving 0 clips, 1 images.
+10:17:55.845 =================================================================
+10:18:01.431 Exam selected: FocusedCardiac
+10:18:01.432 State transition: set mode to M-MODE
+10:18:01.433 State transition: set mode to M-MODE
+10:18:09.346 State transition: set zoom state On, M-MODE
+10:18:15.817 No case to set image optimization for AnatomicalMModeControl
+10:18:23.832 State transition: set dynamic range -2
+10:18:56.742 State transition: set display format to DisplayFormatSplitTwoThirdButton
+10:19:08.393 State transition: set acoustic power 10%
+10:20:17.179 State transition: set sweep speed fast
+10:20:29.282 State transition: set optimization Pen
+10:20:32.574 State transition: set auto gain adjust level -6
+10:21:34.514 State transition: set THI Off
+10:21:39.894 State transition: set gain increase_gain 16
+10:21:42.585 State transition: set freeze state true
+10:21:45.208 State transition: add label add_picto
+10:21:59.587 State transition: adding add_mmode_time to M-MODE
+10:22:07.614 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:22:38.787 =================================================================
+10:22:38.787 
+10:22:38.787 Registering Patient 7_1 and saving 0 clips, 1 images.
+10:22:38.787 =================================================================
+10:22:43.938 Exam selected: FocusedCardiac
+10:22:43.939 State transition: set mode to B-MODE
+10:22:43.939 State transition: set mode to B-MODE
+10:22:44.502 State transition: set depth 7.0
+10:22:48.034 State transition: set optimization Gen
+10:22:56.972 State transition: set zoom state Off, B-MODE
+10:22:59.933 State transition: set THI On
+10:23:10.467 State transition: set acoustic power 60%
+10:23:55.993 State transition: set dynamic range 3
+10:24:37.142 State transition: set orientation LL
+10:24:52.828 State transition: set sector On
+10:24:59.984 State transition: set thermal index TIS
+10:25:05.658 State transition: set procedure mode Off
+10:25:11.850 State transition: set auto gain adjust level -4
+10:26:06.020 State transition: set LVO On
+10:26:13.136 State transition: set gain increase_gain 10
+10:26:13.411 State transition: set freeze state true
+10:26:15.819 State transition: add label add_arrow
+10:26:22.103 State transition: adding add_ellipse to B-MODE
+10:26:31.177 Saving 1 additional image for mode B-MODE with dual display or color compare enabled
+10:26:31.178 State transition: set mode to B-MODE
+10:26:32.155 State transition: set depth 9.0
+10:26:35.511 State transition: set sector On
+10:26:41.884 State transition: set optimization Pen
+10:26:56.700 State transition: set zoom state Off, B-MODE
+10:26:59.638 State transition: set LVO On
+10:27:05.886 State transition: set gain reset
+10:27:10.808 State transition: set thermal index TIC
+10:27:23.556 State transition: set auto gain adjust level 0
+10:27:58.611 State transition: set orientation UR
+10:28:13.993 State transition: set to dual and activate DualRightButton
+10:28:30.514 State transition: set procedure mode Off
+10:28:36.732 State transition: set dynamic range -3
+10:28:52.902 State transition: set gain increase_gain 1
+10:28:52.933 State transition: set freeze state true
+10:28:55.351 State transition: add label add_text
+10:29:01.587 State transition: adding add_distance to B-MODE
+10:29:06.735 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:29:37.503 *** Waiting for USB export to complete. Perform operations while waiting ***
+10:29:37.538 =================================================================
+10:29:37.538 
+10:29:37.538 Select All studies, export to USB.
+10:29:37.538 =================================================================
+10:29:45.709 *** USB Export iteration: 8 ***
+10:29:58.509 Performing export no. 8
+10:30:04.013 Changing scanhead from P5-1 to L12-3
+10:30:13.807 =================================================================
+10:30:13.807 
+10:30:13.807 Registering Patient 8_0 and saving 0 clips, 0 images.
+10:30:13.807 =================================================================
+10:30:19.415 Exam selected: Nerve
+10:30:19.417 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:30:51.071 =================================================================
+10:30:51.071 
+10:30:51.071 Registering Patient 8_1 and saving 0 clips, 1 images.
+10:30:51.071 =================================================================
+10:30:56.710 Exam selected: Nerve
+10:30:56.712 State transition: set mode to CPD
+10:30:56.712 State transition: set mode to CPD
+10:31:04.424 State transition: set depth 7.6
+10:31:08.136 State transition: set color hide On
+10:31:19.416 State transition: set PRF 5435
+10:32:10.155 State transition: set zoom state Off, CPD
+10:32:16.514 State transition: set color wall flter low
+10:32:31.626 State transition: set color steering angle 20
+10:32:43.168 State transition: set color flow high
+10:32:55.908 State transition: set acoustic power 30%
+10:33:52.966 State transition: set gain decrease_gain 47
+10:33:55.568 State transition: set freeze state false
+10:33:57.843 State transition: add label add_picto
+10:33:57.902 State transition: adding skinline msrmnt to CPD
+10:34:03.554 Saving 1 additional image for mode CPD with dual display or color compare enabled
+10:34:03.555 State transition: set mode to CPD
+10:34:10.372 State transition: set depth 3.4
+10:34:13.938 State transition: set color steering angle -20
+10:34:23.083 State transition: set PRF 7353
+10:34:40.940 State transition: set zoom state Off, CPD
+10:34:43.947 State transition: set to dual and activate DualLeftButton
+10:34:58.515 State transition: set color hide On
+10:35:08.099 State transition: set color wall flter med
+10:35:20.017 State transition: set acoustic power 90%
+10:35:47.661 State transition: set color flow high
+10:35:57.763 State transition: set gain increase_gain 80
+10:36:01.004 State transition: set freeze state false
+10:36:02.994 State transition: add label add_arrow
+10:36:03.040 State transition: adding skinline msrmnt to CPD
+10:36:08.363 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:36:39.254 *** Waiting for USB export to complete. Perform operations while waiting ***
+10:36:39.287 =================================================================
+10:36:39.287 
+10:36:39.287 Select All studies, export to USB.
+10:36:39.287 =================================================================
+10:36:47.517 *** USB Export iteration: 9 ***
+10:37:00.235 Performing export no. 9
+10:37:05.622 Changing scanhead from L12-3 to P5-1
+10:37:14.709 =================================================================
+10:37:14.709 
+10:37:14.709 Registering Patient 9_0 and saving 1 clips, 1 images.
+10:37:14.709 =================================================================
+10:37:20.283 Exam selected: FocusedCardiac
+10:37:20.283 State transition: set mode to B-MODE
+10:37:20.285 State transition: set mode to B-MODE
+10:37:20.967 State transition: set depth 35.0
+10:37:46.571 State transition: set thermal index TIC
+10:37:55.932 State transition: set zoom state On, B-MODE
+10:38:03.165 State transition: set dynamic range 2
+10:38:45.403 State transition: set optimization Gen
+10:38:57.878 State transition: set acoustic power 30%
+10:39:56.770 State transition: set auto gain adjust level 6
+10:40:42.167 State transition: set LVO On
+10:40:50.725 State transition: set procedure mode On
+10:41:01.771 State transition: set orientation LL
+10:41:24.554 State transition: set gain decrease_gain 1
+10:41:26.409 State transition: add label add_picto
+10:41:38.080 Saving 1 additional clip for mode B-MODE with dual display or color compare enabled
+10:41:38.082 State transition: set mode to B-MODE
+10:41:39.301 State transition: set depth 27.0
+10:41:53.700 State transition: set LVO Off
+10:42:00.867 State transition: set optimization Pen
+10:42:11.244 State transition: set thermal index TIC
+10:42:17.000 State transition: set sector Off
+10:42:23.272 State transition: set zoom state On, B-MODE
+10:42:29.534 State transition: set THI On
+10:42:35.908 State transition: set orientation UR
+10:42:58.091 State transition: set to dual and activate DualLeftButton
+10:43:11.264 State transition: set dynamic range 0
+10:43:44.118 State transition: set acoustic power 10%
+10:44:25.971 State transition: set procedure mode Off
+10:44:32.661 State transition: set auto gain adjust level 0
+10:45:20.784 State transition: set gain increase_gain 1
+10:45:22.662 State transition: add label add_text
+10:45:34.150 State transition: set mode to PWDOPPLER
+10:45:34.151 State transition: set mode to PWDOPPLER
+10:45:45.837 State transition: set doppler invert Off
+10:45:52.169 State transition: set display format to DisplayFormatSideBySideButton
+10:46:02.020 State transition: set doppler scale 3125
+10:46:07.325 State transition: set doppler volume index 8
+10:46:12.029 State transition: set acoustic power 80%
+10:46:53.441 State transition: set doppler sweep speed FAST_D
+10:47:09.552 State transition: set doppler angle correct 20
+10:47:14.253 State transition: set doppler gate size 7.0 mm
+10:47:19.485 State transition: set doppler wall flter low
+10:47:29.484 State transition: set simultaneous Off
+10:47:35.984 State transition: set doppler baseline index 1
+10:47:44.737 State transition: set auto trace PeakBelowButton
+10:47:51.205 State transition: set gain decrease_gain 96
+10:47:56.010 State transition: set freeze state true
+10:47:58.377 State transition: add label add_picto
+10:48:11.220 State transition: adding add_heart to PWDOPPLER
+10:48:18.971 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+10:48:49.863 =================================================================
+10:48:49.863 
+10:48:49.863 Registering Patient 9_1 and saving 1 clips, 1 images.
+10:48:49.863 =================================================================
+10:48:55.049 Exam selected: FocusedCardiac
+10:48:55.051 State transition: set mode to Variance
+10:48:55.051 State transition: set mode to Variance
+10:49:04.634 State transition: set depth 21.0
+10:49:10.436 State transition: set color baseline decrease_color_baseline 5 times
+10:49:27.207 State transition: set PRF 2083
+10:50:13.508 State transition: set zoom state Off, Variance
+10:50:16.533 State transition: set color wall flter high
+10:50:26.521 State transition: set color invert Off
+10:50:32.847 State transition: set color hide On
+10:50:39.544 State transition: set color flow med
+10:50:49.501 State transition: set acoustic power 80%
+10:51:28.537 State transition: set gain increase_gain 79
+10:51:32.937 State transition: add label add_picto
+10:51:44.289 Saving 1 additional clip for mode Variance with dual display or color compare enabled
+10:51:44.290 State transition: set mode to Variance
+10:51:54.141 State transition: set depth 27.0
+10:52:08.246 State transition: set color compare to topbottom
+10:52:15.863 State transition: set color wall flter high
+10:52:28.569 State transition: set color flow med
+10:52:35.409 State transition: set zoom state Off, Variance
+10:52:41.295 State transition: set color invert Off
+10:52:47.651 State transition: set color baseline decrease_color_baseline 8 times
+10:53:01.163 State transition: set PRF 2841
+10:53:23.828 State transition: set acoustic power 50%
+10:54:04.195 State transition: set gain decrease_gain 85
+10:54:08.832 State transition: add label add_text
+10:54:20.183 State transition: set mode to Color
+10:54:20.187 State transition: set mode to Color
+10:54:30.368 State transition: set depth 9.0
+10:54:37.527 State transition: set color wall flter med
+10:54:53.293 State transition: set color hide On
+10:54:59.990 State transition: set color invert On
+10:55:12.691 State transition: set PRF 1238
+10:55:49.338 State transition: set acoustic power 90%
+10:56:19.961 State transition: set zoom state Off, Color
+10:56:22.959 State transition: set color flow high
+10:56:32.967 State transition: set color baseline increase_color_baseline 6 times
+10:56:42.288 State transition: set gain increase_gain 91
+10:56:45.438 State transition: set freeze state true
+10:56:47.882 State transition: add label add_picto
+10:56:54.240 State transition: adding add_curved_distance to Color
+10:57:05.016 Saving 1 additional image for mode Color with dual display or color compare enabled
+10:57:05.018 State transition: set mode to Color
+10:57:14.355 State transition: set depth 29.0
+10:57:24.444 State transition: set zoom state Off, Color
+10:57:27.411 State transition: set color baseline increase_color_baseline 5 times
+10:57:37.999 State transition: set color hide Off
+10:57:44.308 State transition: set color wall flter med
+10:57:51.052 State transition: set color flow med
+10:58:01.041 State transition: set color invert On
+10:58:07.355 State transition: set color compare to leftright
+10:58:13.676 State transition: set acoustic power 60%
+10:59:00.052 State transition: set PRF 1042
+10:59:51.160 State transition: set gain decrease_gain 96
+10:59:55.191 State transition: set freeze state false
+10:59:57.188 State transition: add label add_text
+10:59:57.248 State transition: adding skinline msrmnt to Color
+11:00:02.306 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:00:33.206 *** Waiting for USB export to complete. Perform operations while waiting ***
+11:00:33.243 =================================================================
+11:00:33.243 
+11:00:33.243 Select All studies, export to USB.
+11:00:33.243 =================================================================
+11:00:41.477 *** USB Export iteration: 10 ***
+11:00:54.291 Performing export no. 10
+11:00:59.895 Changing scanhead from P5-1 to L12-3
+11:01:09.984 =================================================================
+11:01:09.984 
+11:01:09.984 Registering Patient 10_0 and saving 0 clips, 0 images.
+11:01:09.984 =================================================================
+11:01:15.620 Exam selected: Nerve
+11:01:15.622 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:01:47.198 *** Waiting for USB export to complete. Perform operations while waiting ***
+11:01:47.251 Performing an operation. Total wait time 60 seconds
+11:02:52.666 Changing scanhead from L12-3 to P5-1
+11:03:06.330 Exam selected: Cardiac
+11:03:11.135 Choosing 'test option' from initial sequence, step [0]: Patient
+11:03:43.342 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:04:15.670 Performing an operation. Total wait time 120 seconds
+11:05:21.274 Changing scanhead from P5-1 to L12-3
+11:05:36.571 Exam selected: Venous
+11:05:46.510 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+11:05:46.511 Entering LMiR review mode...
+11:06:40.783 Selecting study in PatientListBox, row 0
+11:06:40.786 Getting study select state for grid = PatientListBox and row = 0
+11:06:56.188 In LMiR review mode.
+11:07:21.865 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:07:54.150 Performing an operation. Total wait time 180 seconds
+11:08:59.014 Changing scanhead from L12-3 to P5-1
+11:09:12.075 Exam selected: OB
+11:09:19.271 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+11:09:19.272 Entering LMiR review mode...
+11:10:01.261 Selecting study in PatientListBox, row 0
+11:10:01.262 Getting study select state for grid = PatientListBox and row = 0
+11:10:15.841 In LMiR review mode.
+11:10:39.210 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:11:08.933 =================================================================
+11:11:08.933 
+11:11:08.933 Select All studies, export to USB.
+11:11:08.933 =================================================================
+11:11:17.185 *** USB Export iteration: 11 ***
+11:11:30.103 Performing export no. 11
+11:11:35.739 Changing scanhead from P5-1 to L12-3
+11:11:45.711 =================================================================
+11:11:45.711 
+11:11:45.711 Registering Patient 11_0 and saving 0 clips, 1 images.
+11:11:45.711 =================================================================
+11:11:51.472 Exam selected: Nerve
+11:11:51.473 State transition: set mode to B-MODE
+11:11:51.474 State transition: set mode to B-MODE
+11:11:52.249 State transition: set depth 4.7
+11:11:59.064 State transition: set dynamic range 2
+11:12:42.400 No case to set image optimization for TrapezoidControl
+11:12:48.699 State transition: set zoom state Off, B-MODE
+11:12:51.936 State transition: set auto gain adjust level -2
+11:13:44.928 State transition: set thermal index TIS
+11:13:50.954 State transition: set THI On
+11:13:58.354 State transition: set needle profiling left
+11:14:03.329 State transition: set acoustic power 10%
+11:15:07.741 State transition: set orientation LL
+11:15:30.655 State transition: set gain reset
+11:15:41.428 State transition: set procedure mode Off
+11:15:50.115 State transition: set optimization Gen
+11:15:52.449 State transition: set gain increase_gain 51
+11:15:54.361 State transition: set freeze state false
+11:15:56.573 State transition: add label add_text
+11:15:56.638 State transition: adding skinline msrmnt to B-MODE
+11:16:02.337 Saving 1 additional image for mode B-MODE with dual display or color compare enabled
+11:16:02.338 State transition: set mode to B-MODE
+11:16:03.331 State transition: set depth 3.4
+11:16:07.094 State transition: set thermal index TIB
+11:16:14.822 State transition: set needle profiling left
+11:16:18.091 State transition: set auto gain adjust level -6
+11:17:19.289 State transition: set gain reset
+11:17:25.264 State transition: set orientation UR
+11:17:47.733 State transition: set optimization Gen
+11:17:57.216 State transition: set dynamic range 3
+11:18:40.335 State transition: set procedure mode On
+11:18:49.298 State transition: set acoustic power 50%
+11:19:29.480 State transition: set THI On
+11:19:37.134 State transition: set gain increase_gain 67
+11:19:39.052 State transition: set freeze state false
+11:19:41.017 State transition: add label add_text
+11:19:41.076 State transition: adding skinline msrmnt to B-MODE
+11:19:46.290 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:20:16.759 =================================================================
+11:20:16.759 
+11:20:16.759 Registering Patient 11_1 and saving 1 clips, 0 images.
+11:20:16.759 =================================================================
+11:20:22.067 Exam selected: Nerve
+11:20:22.069 State transition: set mode to B-MODE
+11:20:22.069 State transition: set mode to B-MODE
+11:20:22.638 State transition: set depth 2.4
+11:20:31.634 State transition: set thermal index TIB
+11:20:38.801 State transition: set needle profiling left
+11:20:42.915 State transition: set acoustic power 60%
+11:21:32.054 State transition: set procedure mode Off
+11:21:48.570 State transition: set auto gain adjust level -3
+11:22:38.524 State transition: set THI Off
+11:22:46.063 State transition: set orientation LR
+11:22:59.529 State transition: set dynamic range 1
+11:23:42.187 State transition: set optimization Res
+11:23:42.232 State transition: set gain increase_gain 75
+11:23:46.104 State transition: add label add_arrow
+11:23:57.601 Saving 1 additional clip for mode B-MODE with dual display or color compare enabled
+11:23:57.602 State transition: set mode to B-MODE
+11:23:58.473 State transition: set depth 4.7
+11:24:12.991 State transition: set dynamic range -1
+11:24:48.571 State transition: set procedure mode Off
+11:24:55.106 State transition: set orientation UL
+11:25:21.358 State transition: set needle profiling right
+11:25:25.494 State transition: set auto gain adjust level -6
+11:26:15.487 State transition: set thermal index TIC
+11:26:22.899 State transition: set optimization Res
+11:26:25.859 State transition: set THI Off
+11:26:32.215 State transition: set acoustic power 20%
+11:27:16.343 State transition: set gain increase_gain 67
+11:27:20.089 State transition: add label add_arrow
+11:27:31.642 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:28:02.350 *** Waiting for USB export to complete. Perform operations while waiting ***
+11:28:02.385 =================================================================
+11:28:02.385 
+11:28:02.385 Select All studies, export to USB.
+11:28:02.385 =================================================================
+11:28:10.639 *** USB Export iteration: 12 ***
+11:28:23.530 Performing export no. 12
+11:28:29.249 Changing scanhead from L12-3 to P5-1
+11:28:38.411 =================================================================
+11:28:38.411 
+11:28:38.411 Registering Patient 12_0 and saving 1 clips, 0 images.
+11:28:38.411 =================================================================
+11:28:44.090 Exam selected: FocusedCardiac
+11:28:44.091 State transition: set mode to B-MODE
+11:28:44.091 State transition: set mode to B-MODE
+11:28:44.836 State transition: set depth 29.0
+11:29:02.397 State transition: set THI Off
+11:29:11.272 State transition: set zoom state Off, B-MODE
+11:29:22.236 State transition: set auto gain adjust level -3
+11:30:17.313 State transition: set acoustic power 40%
+11:31:15.806 State transition: set sector On
+11:31:38.358 State transition: set optimization Gen
+11:31:45.025 State transition: set procedure mode Off
+11:31:52.940 State transition: set orientation LR
+11:32:21.426 State transition: set dynamic range -3
+11:32:51.322 State transition: set thermal index TIB
+11:32:58.243 State transition: set gain increase_gain 43
+11:33:01.936 State transition: add label add_picto
+11:33:13.434 Saving 1 additional clip for mode B-MODE with dual display or color compare enabled
+11:33:13.437 State transition: set mode to B-MODE
+11:33:14.870 State transition: set depth 27.0
+11:33:21.616 State transition: set thermal index TIB
+11:33:27.905 State transition: set procedure mode Off
+11:33:35.603 State transition: set to dual and activate DualLeftButton
+11:33:58.258 State transition: set orientation LL
+11:34:27.540 State transition: set THI Off
+11:34:35.799 State transition: set zoom state On, B-MODE
+11:34:42.927 State transition: set gain reset
+11:34:49.465 State transition: set auto gain adjust level 2
+11:35:39.189 State transition: set optimization Pen
+11:35:48.936 State transition: set dynamic range -2
+11:36:34.571 State transition: set acoustic power 50%
+11:37:15.522 State transition: set gain increase_gain 31
+11:37:18.920 State transition: add label add_text
+11:37:30.544 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:38:04.398 *** Waiting for USB export to complete. Perform operations while waiting ***
+11:38:04.463 Performing an operation. Total wait time 60 seconds
+11:39:09.464 Changing scanhead from P5-1 to L12-3
+11:39:23.486 Exam selected: Superficial
+11:39:27.822 Choosing 'test option' from initial sequence, step [0]: Patient
+11:39:53.852 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:40:23.674 =================================================================
+11:40:23.674 
+11:40:23.674 Select All studies, export to USB.
+11:40:23.674 =================================================================
+11:40:31.951 *** USB Export iteration: 13 ***
+11:40:44.900 Performing export no. 13
+11:40:50.675 Changing scanhead from L12-3 to P5-1
+11:40:59.847 =================================================================
+11:40:59.847 
+11:40:59.847 Registering Patient 13_0 and saving 1 clips, 0 images.
+11:40:59.847 =================================================================
+11:41:05.571 Exam selected: FocusedCardiac
+11:41:05.573 State transition: set mode to Color
+11:41:05.573 State transition: set mode to Color
+11:41:17.820 State transition: set depth 19.0
+11:41:25.832 State transition: set acoustic power 50%
+11:42:21.505 State transition: set color wall flter med
+11:42:31.233 State transition: set PRF 2841
+11:42:55.785 State transition: set color baseline decrease_color_baseline 6 times
+11:43:10.321 State transition: set zoom state Off, Color
+11:43:13.692 State transition: set color invert On
+11:43:25.354 State transition: set color hide Off
+11:43:43.123 State transition: set color flow high
+11:43:53.149 State transition: set gain increase_gain 21
+11:43:56.033 State transition: add label add_arrow
+11:44:07.390 Saving 1 additional clip for mode Color with dual display or color compare enabled
+11:44:07.390 State transition: set mode to Color
+11:44:20.962 State transition: set depth 25.0
+11:44:32.670 State transition: set zoom state On, Color
+11:44:44.494 State transition: set acoustic power 50%
+11:45:31.250 State transition: set color baseline increase_color_baseline 7 times
+11:45:51.435 State transition: set color flow low
+11:46:05.249 State transition: set color invert Off
+11:46:13.894 State transition: set to dual and activate DualLeftButton
+11:46:34.948 State transition: set color wall flter med
+11:46:45.071 State transition: set color hide Off
+11:46:56.867 State transition: set PRF 3289
+11:47:25.162 State transition: set gain increase_gain 42
+11:47:29.168 State transition: add label add_picto
+11:47:40.520 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:48:13.910 *** Waiting for USB export to complete. Perform operations while waiting ***
+11:48:13.993 Performing an operation. Total wait time 60 seconds
+11:49:19.906 Changing scanhead from P5-1 to L12-3
+11:49:34.739 Exam selected: Nerve
+11:49:43.935 Choosing 'test option' from initial sequence, step [0]: Patient
+11:50:13.338 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:50:45.091 Performing an operation. Total wait time 120 seconds
+11:51:50.880 Changing scanhead from L12-3 to P5-1
+11:52:05.168 Exam selected: Transcranial
+11:52:14.722 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+11:52:14.723 Entering LMiR review mode...
+11:53:07.484 Selecting study in PatientListBox, row 0
+11:53:07.486 Getting study select state for grid = PatientListBox and row = 0
+11:53:21.994 In LMiR review mode.
+11:53:44.661 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:54:14.876 =================================================================
+11:54:14.876 
+11:54:14.876 Select All studies, export to USB.
+11:54:14.876 =================================================================
+11:54:23.161 *** USB Export iteration: 14 ***
+11:54:36.074 Performing export no. 14
+11:54:41.658 Changing scanhead from P5-1 to L12-3
+11:54:51.450 =================================================================
+11:54:51.450 
+11:54:51.450 Registering Patient 14_0 and saving 0 clips, 1 images.
+11:54:51.450 =================================================================
+11:54:57.223 Exam selected: Nerve
+11:54:57.224 State transition: set mode to M-MODE
+11:54:57.225 State transition: set mode to M-MODE
+11:55:05.093 State transition: set auto gain adjust level 1
+11:55:56.780 State transition: set optimization Res
+11:56:00.182 State transition: set display format to DisplayFormatSplitOneThirdButton
+11:56:09.424 State transition: set zoom state On, M-MODE
+11:56:19.583 State transition: set sweep speed medium
+11:56:29.855 State transition: set THI On
+11:56:38.241 State transition: set dynamic range 2
+11:57:23.716 State transition: set gain reset
+11:57:30.628 State transition: set acoustic power 10%
+11:58:36.693 State transition: set gain increase_gain 70
+11:58:41.423 State transition: set freeze state true
+11:58:44.164 State transition: add label add_picto
+11:58:58.951 State transition: adding add_mmode_time to M-MODE
+11:59:06.917 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+11:59:40.029 *** Waiting for USB export to complete. Perform operations while waiting ***
+11:59:40.095 Performing an operation. Total wait time 60 seconds
+12:00:46.029 Changing scanhead from L12-3 to P5-1
+12:01:00.351 Exam selected: FocusedCardiac
+12:01:12.825 Choosing 'test option' from initial sequence, step [0]: Patient
+12:01:47.311 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:02:19.926 Performing an operation. Total wait time 120 seconds
+12:03:25.798 Changing scanhead from P5-1 to L12-3
+12:03:40.872 Exam selected: Musculoskeletal
+12:03:51.313 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+12:03:51.314 Entering LMiR review mode...
+12:04:45.433 Selecting study in PatientListBox, row 0
+12:04:45.435 Getting study select state for grid = PatientListBox and row = 0
+12:05:00.429 In LMiR review mode.
+12:05:18.575 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:05:50.574 Performing an operation. Total wait time 180 seconds
+12:06:56.165 Changing scanhead from L12-3 to P5-1
+12:07:10.340 Exam selected: Cardiac
+12:07:12.629 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+12:07:12.630 Entering LMiR review mode...
+12:07:59.063 Selecting study in PatientListBox, row 0
+12:07:59.063 Getting study select state for grid = PatientListBox and row = 0
+12:08:13.988 In LMiR review mode.
+12:08:42.094 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:09:14.724 Performing an operation. Total wait time 240 seconds
+12:10:19.592 Changing scanhead from P5-1 to L12-3
+12:10:33.691 Exam selected: Lung
+12:10:40.633 Choosing 'test option' from initial sequence, step [3]: PatientList
+12:11:07.913 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:11:37.782 =================================================================
+12:11:37.782 
+12:11:37.782 Select All studies, export to USB.
+12:11:37.782 =================================================================
+12:11:46.055 *** USB Export iteration: 15 ***
+12:11:58.960 Performing export no. 15
+12:12:04.446 Changing scanhead from L12-3 to P5-1
+12:12:13.450 =================================================================
+12:12:13.450 
+12:12:13.450 Registering Patient 15_0 and saving 1 clips, 0 images.
+12:12:13.450 =================================================================
+12:12:19.071 Exam selected: FocusedCardiac
+12:12:19.072 State transition: set mode to Variance
+12:12:19.072 State transition: set mode to Variance
+12:12:31.167 State transition: set depth 19.0
+12:12:34.592 State transition: set zoom state On, Variance
+12:12:41.567 State transition: set acoustic power 100%
+12:13:27.565 State transition: set color baseline increase_color_baseline 3 times
+12:13:36.390 State transition: set color wall flter med
+12:13:44.658 State transition: set color invert Off
+12:13:52.712 State transition: set PRF 4032
+12:14:40.022 State transition: set color flow med
+12:14:52.835 State transition: set color hide Off
+12:14:57.423 State transition: set gain increase_gain 77
+12:15:02.582 State transition: add label add_picto
+12:15:13.933 Saving 1 additional clip for mode Variance with dual display or color compare enabled
+12:15:13.935 State transition: set mode to Variance
+12:15:27.122 State transition: set depth 9.0
+12:15:44.551 State transition: set acoustic power 80%
+12:16:35.878 State transition: set color compare to topbottom
+12:16:46.913 State transition: set zoom state On, Variance
+12:16:54.434 State transition: set color invert On
+12:17:03.474 State transition: set color baseline decrease_color_baseline 9 times
+12:17:32.984 State transition: set PRF 2976
+12:17:52.848 State transition: set color wall flter low
+12:18:06.310 State transition: set color flow high
+12:18:18.330 State transition: set gain decrease_gain 51
+12:18:22.618 State transition: add label add_text
+12:18:33.994 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:19:07.502 =================================================================
+12:19:07.502 
+12:19:07.502 Registering Patient 15_1 and saving 0 clips, 1 images.
+12:19:07.502 =================================================================
+12:19:13.368 Exam selected: FocusedCardiac
+12:19:13.369 State transition: set mode to CWDOPPLER
+12:19:13.370 State transition: set mode to CWDOPPLER
+12:19:31.161 State transition: set acoustic power 40%
+12:20:31.566 State transition: set doppler baseline index 7
+12:20:40.790 State transition: set display format to DisplayFormatSplitTwoThirdButton
+12:20:56.901 State transition: set doppler volume index 4
+12:21:05.118 State transition: set doppler invert On
+12:21:17.636 State transition: set doppler sweep speed FAST_D
+12:21:31.741 State transition: set doppler scale 31250
+12:21:43.500 State transition: set auto trace PeakAboveButton
+12:21:54.676 State transition: set doppler wall flter med
+12:22:14.015 State transition: set gain decrease_gain 59
+12:22:18.020 State transition: set freeze state true
+12:22:20.600 State transition: add label add_text
+12:22:38.504 State transition: adding add_heart to CWDOPPLER
+12:22:46.705 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:23:20.053 *** Waiting for USB export to complete. Perform operations while waiting ***
+12:23:20.104 Performing an operation. Total wait time 60 seconds
+12:24:26.013 Changing scanhead from P5-1 to L12-3
+12:24:41.255 Exam selected: Musculoskeletal
+12:24:51.196 Choosing 'test option' from initial sequence, step [0]: Patient
+12:25:22.119 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:25:54.425 Performing an operation. Total wait time 120 seconds
+12:27:00.117 Changing scanhead from L12-3 to P5-1
+12:27:13.868 Exam selected: Cardiac
+12:27:26.806 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+12:27:26.808 Entering LMiR review mode...
+12:28:21.533 Selecting study in PatientListBox, row 0
+12:28:21.535 Getting study select state for grid = PatientListBox and row = 0
+12:28:36.558 In LMiR review mode.
+12:29:04.033 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:29:34.133 =================================================================
+12:29:34.133 
+12:29:34.133 Select All studies, export to USB.
+12:29:34.133 =================================================================
+12:29:42.428 *** USB Export iteration: 16 ***
+12:29:55.389 Performing export no. 16
+12:30:01.013 Changing scanhead from P5-1 to L12-3
+12:30:10.866 =================================================================
+12:30:10.866 
+12:30:10.866 Registering Patient 16_0 and saving 0 clips, 0 images.
+12:30:10.866 =================================================================
+12:30:16.577 Exam selected: Nerve
+12:30:16.577 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:30:48.646 *** Waiting for USB export to complete. Perform operations while waiting ***
+12:30:48.694 Performing an operation. Total wait time 60 seconds
+12:31:54.432 Changing scanhead from L12-3 to P5-1
+12:32:09.256 Exam selected: OB
+12:32:15.496 Choosing 'test option' from initial sequence, step [0]: Patient
+12:32:36.832 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:33:08.310 Performing an operation. Total wait time 120 seconds
+12:34:13.819 Changing scanhead from P5-1 to L12-3
+12:34:29.239 Exam selected: Ophthalmic
+12:34:31.229 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+12:34:31.230 Entering LMiR review mode...
+12:35:24.521 Selecting study in PatientListBox, row 0
+12:35:24.522 Getting study select state for grid = PatientListBox and row = 0
+12:35:39.423 In LMiR review mode.
+12:36:04.352 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:36:37.104 Performing an operation. Total wait time 180 seconds
+12:37:42.835 Changing scanhead from L12-3 to P5-1
+12:37:56.601 Exam selected: FocusedCardiac
+12:38:06.490 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+12:38:06.491 Entering LMiR review mode...
+12:38:53.307 Selecting study in PatientListBox, row 0
+12:38:53.308 Getting study select state for grid = PatientListBox and row = 0
+12:39:08.347 In LMiR review mode.
+12:39:36.800 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:40:09.517 Performing an operation. Total wait time 240 seconds
+12:41:15.334 Changing scanhead from P5-1 to L12-3
+12:41:30.546 Exam selected: Musculoskeletal
+12:41:40.016 Choosing 'test option' from initial sequence, step [3]: PatientList
+12:42:11.253 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:42:43.208 Performing an operation. Total wait time 300 seconds
+12:43:48.867 Changing scanhead from L12-3 to P5-1
+12:44:03.005 Exam selected: Cardiac
+12:44:14.999 Choosing 'test option' from initial sequence, step [4]: Review
+12:44:15.000 Special handling of 'Review', will wait for thumbnail...
+12:44:15.093 Found thumbnail.
+12:44:48.559 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:45:20.938 Performing an operation. Total wait time 360 seconds
+12:46:26.761 Changing scanhead from P5-1 to L12-3
+12:46:41.492 Exam selected: Carotid
+12:46:47.457 Choosing 'test option' from initial sequence, step [5]: scenario_LMiR_edit
+12:46:47.458 Entering LMiR edit mode... first into LMiR review mode...
+12:46:47.458 Entering LMiR review mode...
+12:47:33.871 Selecting study in PatientListBox, row 0
+12:47:33.872 Getting study select state for grid = PatientListBox and row = 0
+12:47:48.655 In LMiR review mode.
+12:47:48.655 ... after LMiR review mode... now entering LMiR edit mode...
+12:47:50.114 =================================================================
+12:47:50.114 
+12:47:50.114 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+12:47:50.114 =================================================================
+12:48:38.140 In LMiR edit mode.
+12:48:56.484 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:49:26.530 =================================================================
+12:49:26.530 
+12:49:26.530 Select All studies, export to USB.
+12:49:26.530 =================================================================
+12:49:34.856 *** USB Export iteration: 17 ***
+12:49:47.890 Performing export no. 17
+12:49:53.530 Changing scanhead from L12-3 to P5-1
+12:50:02.666 =================================================================
+12:50:02.666 
+12:50:02.666 Registering Patient 17_0 and saving 0 clips, 0 images.
+12:50:02.666 =================================================================
+12:50:08.648 Exam selected: FocusedCardiac
+12:50:08.650 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+12:50:41.372 =================================================================
+12:50:41.372 
+12:50:41.372 Registering Patient 17_1 and saving 1 clips, 1 images.
+12:50:41.372 =================================================================
+12:50:47.272 Exam selected: FocusedCardiac
+12:50:47.274 State transition: set mode to B-MODE
+12:50:47.274 State transition: set mode to B-MODE
+12:50:48.039 State transition: set depth 23.0
+12:51:01.038 State transition: set zoom state Off, B-MODE
+12:51:04.378 State transition: set dynamic range 3
+12:51:51.773 State transition: set auto gain adjust level 6
+12:52:38.645 State transition: set acoustic power 10%
+12:53:47.038 State transition: set THI Off
+12:53:56.520 State transition: set sector Off
+12:54:04.676 State transition: set orientation LR
+12:54:40.502 State transition: set thermal index TIB
+12:54:54.143 State transition: set procedure mode Off
+12:55:03.003 State transition: set optimization Gen
+12:55:17.961 State transition: set gain reset
+12:55:21.023 State transition: set gain increase_gain 8
+12:55:23.584 State transition: add label add_picto
+12:55:34.933 Saving 1 additional clip for mode B-MODE with dual display or color compare enabled
+12:55:34.934 State transition: set mode to B-MODE
+12:55:36.251 State transition: set depth 17.0
+12:55:53.941 State transition: set optimization Gen
+12:56:00.765 State transition: set to dual and activate DualLeftButton
+12:56:18.909 State transition: set procedure mode Off
+12:56:27.317 State transition: set sector Off
+12:56:44.015 State transition: set THI On
+12:56:53.718 State transition: set auto gain adjust level 0
+12:58:01.545 State transition: set thermal index TIS
+12:58:09.786 State transition: set acoustic power 100%
+12:58:37.594 State transition: set zoom state Off, B-MODE
+12:58:41.081 State transition: set dynamic range -2
+12:59:11.985 State transition: set orientation LL
+12:59:44.582 State transition: set gain decrease_gain 62
+12:59:49.342 State transition: add label add_picto
+13:00:01.035 State transition: set mode to CWDOPPLER
+13:00:01.036 State transition: set mode to CWDOPPLER
+13:00:23.760 State transition: set doppler invert On
+13:00:33.357 State transition: set doppler baseline index 6
+13:00:44.688 State transition: set doppler wall flter low
+13:00:58.471 State transition: set doppler volume index 9
+13:01:08.795 State transition: set doppler scale 41667
+13:01:22.787 State transition: set display format to DisplayFormatSplitHalfButton
+13:01:31.332 State transition: set acoustic power 90%
+13:02:22.220 State transition: set auto trace MeanBelowButton
+13:02:33.649 State transition: set doppler sweep speed MEDIUM_D
+13:02:56.968 State transition: set gain increase_gain 4
+13:02:59.124 State transition: set freeze state true
+13:03:01.867 State transition: add label add_picto
+13:03:20.592 State transition: adding add_slope to CWDOPPLER
+13:03:31.857 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:04:05.490 *** Waiting for USB export to complete. Perform operations while waiting ***
+13:04:05.554 Performing an operation. Total wait time 60 seconds
+13:05:11.440 Changing scanhead from P5-1 to L12-3
+13:05:26.843 Exam selected: Superficial
+13:05:36.239 Choosing 'test option' from initial sequence, step [0]: Patient
+13:06:05.719 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:06:37.875 Performing an operation. Total wait time 120 seconds
+13:07:43.808 Changing scanhead from L12-3 to P5-1
+13:07:58.430 Exam selected: OB
+13:08:04.875 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+13:08:04.876 Entering LMiR review mode...
+13:09:00.236 Selecting study in PatientListBox, row 0
+13:09:00.236 Getting study select state for grid = PatientListBox and row = 0
+13:09:15.825 In LMiR review mode.
+13:09:40.630 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:10:13.510 Performing an operation. Total wait time 180 seconds
+13:11:18.516 Changing scanhead from P5-1 to L12-3
+13:11:32.510 Exam selected: Venous
+13:11:34.442 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+13:11:34.443 Entering LMiR review mode...
+13:12:17.025 Selecting study in PatientListBox, row 0
+13:12:17.026 Getting study select state for grid = PatientListBox and row = 0
+13:12:31.568 In LMiR review mode.
+13:12:55.417 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:13:25.247 =================================================================
+13:13:25.247 
+13:13:25.247 Select All studies, export to USB.
+13:13:25.247 =================================================================
+13:13:33.686 *** USB Export iteration: 18 ***
+13:13:47.268 Performing export no. 18
+13:13:53.204 Changing scanhead from L12-3 to P5-1
+13:14:02.338 =================================================================
+13:14:02.338 
+13:14:02.338 Registering Patient 18_0 and saving 1 clips, 1 images.
+13:14:02.338 =================================================================
+13:14:08.190 Exam selected: FocusedCardiac
+13:14:08.191 State transition: set mode to Variance
+13:14:08.192 State transition: set mode to Variance
+13:14:21.762 State transition: set depth 17.0
+13:14:39.529 State transition: set zoom state Off, Variance
+13:14:42.975 State transition: set acoustic power 20%
+13:15:48.222 State transition: set color invert Off
+13:15:56.456 State transition: set color flow low
+13:16:10.658 State transition: set color hide Off
+13:16:22.044 State transition: set color wall flter low
+13:16:36.177 State transition: set PRF 3289
+13:17:20.394 State transition: set color baseline decrease_color_baseline 2 times
+13:17:28.002 State transition: set gain increase_gain 74
+13:17:33.523 State transition: add label add_text
+13:17:45.150 Saving 1 additional clip for mode Variance with dual display or color compare enabled
+13:17:45.153 State transition: set mode to Variance
+13:17:59.101 State transition: set depth 31.0
+13:18:22.508 State transition: set to dual and activate DualLeftButton
+13:18:41.771 State transition: set color hide On
+13:18:54.564 State transition: set color invert Off
+13:19:03.152 State transition: set color flow high
+13:19:17.886 State transition: set color wall flter low
+13:19:37.177 State transition: set color baseline increase_color_baseline 5 times
+13:19:54.444 State transition: set acoustic power 20%
+13:20:43.779 State transition: set PRF 2717
+13:21:19.417 State transition: set zoom state On, Variance
+13:21:23.473 State transition: set gain increase_gain 44
+13:21:27.192 State transition: add label add_picto
+13:21:38.541 State transition: set mode to PWDOPPLER
+13:21:38.542 State transition: set mode to PWDOPPLER
+13:21:53.439 State transition: set doppler sweep speed FAST_D
+13:22:06.926 State transition: set doppler wall flter med
+13:22:18.338 State transition: set acoustic power 40%
+13:23:22.380 State transition: set doppler volume index 8
+13:23:30.012 State transition: set display format to DisplayFormatSplitTwoThirdButton
+13:23:43.438 State transition: set doppler baseline index 6
+13:23:50.859 State transition: set auto trace MeanBelowButton
+13:24:05.624 State transition: set simultaneous Off
+13:24:19.001 State transition: set doppler invert Off
+13:24:27.618 State transition: set doppler scale 2604
+13:24:35.986 State transition: set doppler gate size 9.0 mm
+13:24:45.014 State transition: set doppler angle correct 28
+13:24:47.766 State transition: set gain decrease_gain 41
+13:24:51.271 State transition: set freeze state false
+13:24:53.702 State transition: add label add_arrow
+13:24:53.764 State transition: adding skinline msrmnt to PWDOPPLER
+13:24:54.440 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:25:28.125 *** Waiting for USB export to complete. Perform operations while waiting ***
+13:25:28.178 Performing an operation. Total wait time 60 seconds
+13:26:34.237 Changing scanhead from P5-1 to L12-3
+13:26:49.607 Exam selected: PIV
+13:27:04.141 Choosing 'test option' from initial sequence, step [0]: Patient
+13:27:26.745 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:27:58.792 Performing an operation. Total wait time 120 seconds
+13:29:04.858 Changing scanhead from L12-3 to P5-1
+13:29:19.695 Exam selected: Orbital
+13:29:28.876 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+13:29:28.878 Entering LMiR review mode...
+13:30:23.559 Selecting study in PatientListBox, row 0
+13:30:23.560 Getting study select state for grid = PatientListBox and row = 0
+13:30:38.541 In LMiR review mode.
+13:31:04.252 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:31:36.640 Performing an operation. Total wait time 180 seconds
+13:32:42.660 Changing scanhead from P5-1 to L12-3
+13:32:57.927 Exam selected: Musculoskeletal
+13:33:08.816 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+13:33:08.817 Entering LMiR review mode...
+13:33:57.545 Selecting study in PatientListBox, row 0
+13:33:57.546 Getting study select state for grid = PatientListBox and row = 0
+13:34:12.372 In LMiR review mode.
+13:34:40.104 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:35:12.990 Performing an operation. Total wait time 240 seconds
+13:36:19.158 Changing scanhead from L12-3 to P5-1
+13:36:33.297 Exam selected: FocusedCardiac
+13:36:45.442 Choosing 'test option' from initial sequence, step [3]: PatientList
+13:37:08.811 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:37:40.337 Performing an operation. Total wait time 300 seconds
+13:38:45.366 Changing scanhead from P5-1 to L12-3
+13:38:59.296 Exam selected: Carotid
+13:39:03.466 Choosing 'test option' from initial sequence, step [4]: Review
+13:39:03.467 Special handling of 'Review', will wait for thumbnail...
+13:39:03.540 Found thumbnail.
+13:39:29.715 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:39:59.541 =================================================================
+13:39:59.541 
+13:39:59.541 Select All studies, export to USB.
+13:39:59.541 =================================================================
+13:40:07.872 *** USB Export iteration: 19 ***
+13:40:20.965 Performing export no. 19
+13:40:26.634 Changing scanhead from L12-3 to P5-1
+13:40:35.794 =================================================================
+13:40:35.794 
+13:40:35.794 Registering Patient 19_0 and saving 0 clips, 0 images.
+13:40:35.794 =================================================================
+13:40:41.563 Exam selected: FocusedCardiac
+13:40:41.564 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:41:13.871 =================================================================
+13:41:13.871 
+13:41:13.871 Registering Patient 19_1 and saving 1 clips, 1 images.
+13:41:13.871 =================================================================
+13:41:19.614 Exam selected: FocusedCardiac
+13:41:19.616 State transition: set mode to Color
+13:41:19.616 State transition: set mode to Color
+13:41:33.246 State transition: set depth 17.0
+13:41:39.617 State transition: set color flow med
+13:41:52.955 State transition: set color baseline decrease_color_baseline 1 times
+13:41:58.196 State transition: set color hide Off
+13:42:09.464 State transition: set color invert On
+13:42:21.525 State transition: set acoustic power 60%
+13:43:22.021 State transition: set color wall flter med
+13:43:37.317 State transition: set PRF 2841
+13:44:01.832 State transition: set zoom state On, Color
+13:44:05.649 State transition: set gain decrease_gain 72
+13:44:10.945 State transition: add label add_arrow
+13:44:22.310 Saving 1 additional clip for mode Color with dual display or color compare enabled
+13:44:22.311 State transition: set mode to Color
+13:44:36.776 State transition: set depth 35.0
+13:45:05.139 State transition: set to dual and activate DualLeftButton
+13:45:27.760 State transition: set color baseline increase_color_baseline 4 times
+13:45:42.888 State transition: set zoom state Off, Color
+13:45:46.425 State transition: set color invert On
+13:45:55.099 State transition: set color wall flter low
+13:46:09.657 State transition: set acoustic power 100%
+13:46:49.144 State transition: set color flow med
+13:47:00.431 State transition: set PRF 3289
+13:47:26.559 State transition: set color hide Off
+13:47:31.715 State transition: set gain increase_gain 24
+13:47:35.204 State transition: add label add_arrow
+13:47:46.912 State transition: set mode to B-MODE
+13:47:46.912 State transition: set mode to B-MODE
+13:47:48.591 State transition: set depth 7.0
+13:47:52.505 State transition: set dynamic range 0
+13:48:34.544 State transition: set auto gain adjust level -6
+13:49:39.474 State transition: set sector On
+13:49:53.573 State transition: set THI On
+13:50:01.538 State transition: set LVO Off
+13:50:09.572 State transition: set thermal index TIB
+13:50:22.676 State transition: set optimization Pen
+13:50:26.343 State transition: set zoom state On, B-MODE
+13:50:34.841 State transition: set acoustic power 40%
+13:51:37.168 State transition: set procedure mode Off
+13:51:45.547 State transition: set orientation LL
+13:52:21.687 State transition: set gain increase_gain 74
+13:52:24.200 State transition: set freeze state false
+13:52:26.563 State transition: add label add_arrow
+13:52:26.652 State transition: adding skinline msrmnt to B-MODE
+13:52:32.413 Saving 1 additional image for mode B-MODE with dual display or color compare enabled
+13:52:32.414 State transition: set mode to B-MODE
+13:52:34.093 State transition: set depth 5.0
+13:52:37.946 State transition: set thermal index TIS
+13:52:47.896 State transition: set optimization Gen
+13:53:02.708 State transition: set acoustic power 30%
+13:53:51.877 State transition: set zoom state Off, B-MODE
+13:53:55.533 State transition: set orientation LL
+13:54:10.649 State transition: set sector On
+13:54:18.628 State transition: set THI Off
+13:54:27.811 State transition: set to dual and activate DualLeftButton
+13:54:45.033 State transition: set auto gain adjust level 2
+13:55:22.469 State transition: set procedure mode Off
+13:55:41.947 State transition: set dynamic range -1
+13:56:16.034 State transition: set gain decrease_gain 62
+13:56:18.056 State transition: set freeze state false
+13:56:20.303 State transition: add label add_picto
+13:56:20.364 State transition: adding skinline msrmnt to B-MODE
+13:56:25.848 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:56:58.990 *** Waiting for USB export to complete. Perform operations while waiting ***
+13:56:59.041 Performing an operation. Total wait time 60 seconds
+13:58:05.021 Changing scanhead from P5-1 to L12-3
+13:58:20.243 Exam selected: Musculoskeletal
+13:58:31.462 Choosing 'test option' from initial sequence, step [0]: Patient
+13:59:03.779 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+13:59:36.556 Performing an operation. Total wait time 120 seconds
+14:00:42.918 Changing scanhead from L12-3 to P5-1
+14:00:57.335 Exam selected: OB
+14:01:03.531 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+14:01:03.531 Entering LMiR review mode...
+14:01:58.174 Selecting study in PatientListBox, row 0
+14:01:58.175 Getting study select state for grid = PatientListBox and row = 0
+14:02:13.155 In LMiR review mode.
+14:02:37.983 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:03:10.649 Performing an operation. Total wait time 180 seconds
+14:04:16.617 Changing scanhead from P5-1 to L12-3
+14:04:32.482 Exam selected: Ophthalmic
+14:04:37.150 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+14:04:37.151 Entering LMiR review mode...
+14:05:24.033 Selecting study in PatientListBox, row 0
+14:05:24.035 Getting study select state for grid = PatientListBox and row = 0
+14:05:38.880 In LMiR review mode.
+14:05:57.221 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:06:28.280 Performing an operation. Total wait time 240 seconds
+14:07:33.972 Changing scanhead from L12-3 to P5-1
+14:07:48.526 Exam selected: Abdomen
+14:07:53.855 Choosing 'test option' from initial sequence, step [3]: PatientList
+14:08:21.525 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:08:51.335 =================================================================
+14:08:51.335 
+14:08:51.335 Select All studies, export to USB.
+14:08:51.335 =================================================================
+14:08:59.678 *** USB Export iteration: 20 ***
+14:09:13.036 Performing export no. 20
+14:09:18.755 Changing scanhead from P5-1 to L12-3
+14:09:28.768 =================================================================
+14:09:28.768 
+14:09:28.768 Registering Patient 20_0 and saving 0 clips, 0 images.
+14:09:28.768 =================================================================
+14:09:34.495 Exam selected: Nerve
+14:09:34.496 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:10:06.936 =================================================================
+14:10:06.936 
+14:10:06.936 Registering Patient 20_1 and saving 1 clips, 1 images.
+14:10:06.936 =================================================================
+14:10:12.646 Exam selected: Nerve
+14:10:12.647 State transition: set mode to Color
+14:10:12.648 State transition: set mode to Color
+14:10:21.375 State transition: set depth 1.8
+14:10:40.252 State transition: set color steering angle 20
+14:10:56.725 State transition: set zoom state Off, Color
+14:11:00.122 State transition: set color hide Off
+14:11:07.453 State transition: set acoustic power 30%
+14:12:10.815 State transition: set color wall flter med
+14:12:25.181 State transition: set color invert On
+14:12:34.058 State transition: set PRF 568
+14:13:22.620 State transition: set color flow low
+14:13:33.628 State transition: set gain decrease_gain 89
+14:13:41.399 State transition: add label add_text
+14:13:52.912 Saving 1 additional clip for mode Color with dual display or color compare enabled
+14:13:52.914 State transition: set mode to Color
+14:14:03.308 State transition: set depth 6.5
+14:14:29.654 State transition: set color hide On
+14:14:38.303 State transition: set zoom state Off, Color
+14:14:42.150 State transition: set color steering angle 20
+14:14:53.769 State transition: set acoustic power 30%
+14:15:44.496 State transition: set color wall flter med
+14:15:56.182 State transition: set PRF 4032
+14:17:14.823 State transition: set to dual and activate DualRightButton
+14:17:30.236 State transition: set color invert Off
+14:17:42.280 State transition: set color flow low
+14:17:57.659 State transition: set gain increase_gain 69
+14:18:06.092 State transition: add label add_picto
+14:18:17.442 State transition: set mode to CPD
+14:18:17.443 State transition: set mode to CPD
+14:18:28.718 State transition: set depth 7.6
+14:18:36.643 State transition: set color steering angle 0
+14:18:50.212 State transition: set color wall flter med
+14:19:07.931 State transition: set acoustic power 100%
+14:19:40.774 State transition: set color flow high
+14:19:54.761 State transition: set PRF 714
+14:20:58.352 State transition: set color hide Off
+14:21:06.481 State transition: set zoom state On, CPD
+14:21:17.082 State transition: set gain decrease_gain 87
+14:21:23.450 State transition: set freeze state false
+14:21:25.721 State transition: add label add_text
+14:21:25.780 State transition: adding skinline msrmnt to CPD
+14:21:31.498 Saving 1 additional image for mode CPD with dual display or color compare enabled
+14:21:31.499 State transition: set mode to CPD
+14:21:41.240 State transition: set depth 2.1
+14:21:48.362 State transition: set acoustic power 10%
+14:22:56.619 State transition: set color compare to topbottom
+14:23:01.554 State transition: set color steering angle 20
+14:23:21.678 State transition: set color wall flter med
+14:23:31.990 State transition: set color flow low
+14:23:43.061 State transition: set zoom state On, CPD
+14:23:53.144 State transition: set PRF 5435
+14:25:16.652 State transition: set gain decrease_gain 77
+14:25:19.155 State transition: set freeze state true
+14:25:22.168 State transition: add label add_arrow
+14:25:29.395 State transition: adding add_ellipse to CPD
+14:25:38.911 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:26:11.826 *** Waiting for USB export to complete. Perform operations while waiting ***
+14:26:11.877 Performing an operation. Total wait time 60 seconds
+14:27:17.811 Changing scanhead from L12-3 to P5-1
+14:27:31.744 Exam selected: FocusedCardiac
+14:27:45.196 Choosing 'test option' from initial sequence, step [0]: Patient
+14:28:19.435 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:28:52.789 Performing an operation. Total wait time 120 seconds
+14:29:58.959 Changing scanhead from P5-1 to L12-3
+14:30:14.411 Exam selected: Venous
+14:30:16.707 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+14:30:16.707 Entering LMiR review mode...
+14:31:11.798 Selecting study in PatientListBox, row 0
+14:31:11.799 Getting study select state for grid = PatientListBox and row = 0
+14:31:26.872 In LMiR review mode.
+14:31:45.335 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:32:17.528 Performing an operation. Total wait time 180 seconds
+14:33:23.123 Changing scanhead from L12-3 to P5-1
+14:33:37.689 Exam selected: Orbital
+14:33:46.740 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+14:33:46.742 Entering LMiR review mode...
+14:34:34.005 Selecting study in PatientListBox, row 0
+14:34:34.007 Getting study select state for grid = PatientListBox and row = 0
+14:34:49.034 In LMiR review mode.
+14:35:14.336 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:35:47.022 Performing an operation. Total wait time 240 seconds
+14:36:52.844 Changing scanhead from P5-1 to L12-3
+14:37:07.581 Exam selected: Nerve
+14:37:09.858 Choosing 'test option' from initial sequence, step [3]: PatientList
+14:37:31.957 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:38:03.801 Performing an operation. Total wait time 300 seconds
+14:39:09.605 Changing scanhead from L12-3 to P5-1
+14:39:24.085 Exam selected: Transcranial
+14:39:26.184 Choosing 'test option' from initial sequence, step [4]: Review
+14:39:26.185 Special handling of 'Review', will wait for thumbnail...
+14:39:26.306 Found thumbnail.
+14:39:55.240 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:40:27.476 Performing an operation. Total wait time 360 seconds
+14:41:33.432 Changing scanhead from P5-1 to L12-3
+14:41:48.462 Exam selected: Carotid
+14:41:57.863 Choosing 'test option' from initial sequence, step [5]: scenario_LMiR_edit
+14:41:57.864 Entering LMiR edit mode... first into LMiR review mode...
+14:41:57.865 Entering LMiR review mode...
+14:42:44.330 Selecting study in PatientListBox, row 0
+14:42:44.331 Getting study select state for grid = PatientListBox and row = 0
+14:43:00.513 In LMiR review mode.
+14:43:00.513 ... after LMiR review mode... now entering LMiR edit mode...
+14:43:01.939 =================================================================
+14:43:01.939 
+14:43:01.939 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+14:43:01.939 =================================================================
+14:43:48.046 In LMiR edit mode.
+14:44:11.598 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:44:41.607 =================================================================
+14:44:41.607 
+14:44:41.607 Select All studies, export to USB.
+14:44:41.607 =================================================================
+14:44:49.939 *** USB Export iteration: 21 ***
+14:45:03.275 Performing export no. 21
+14:45:08.938 Changing scanhead from L12-3 to P5-1
+14:45:18.138 =================================================================
+14:45:18.138 
+14:45:18.138 Registering Patient 21_0 and saving 0 clips, 0 images.
+14:45:18.138 =================================================================
+14:45:23.874 Exam selected: FocusedCardiac
+14:45:23.876 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:45:56.733 =================================================================
+14:45:56.733 
+14:45:56.733 Registering Patient 21_1 and saving 1 clips, 0 images.
+14:45:56.733 =================================================================
+14:46:02.683 Exam selected: FocusedCardiac
+14:46:02.686 State transition: set mode to Color
+14:46:02.686 State transition: set mode to Color
+14:46:16.388 State transition: set depth 33.0
+14:46:39.387 State transition: set color wall flter high
+14:46:53.189 State transition: set color invert On
+14:47:01.685 State transition: set color flow high
+14:47:15.745 State transition: set acoustic power 80%
+14:48:15.489 State transition: set color baseline decrease_color_baseline 2 times
+14:48:30.884 State transition: set color hide On
+14:48:43.503 State transition: set PRF 2717
+14:49:32.632 State transition: set zoom state Off, Color
+14:49:32.742 State transition: set gain increase_gain 61
+14:49:37.862 State transition: add label add_picto
+14:49:49.389 Saving 1 additional clip for mode Color with dual display or color compare enabled
+14:49:49.390 State transition: set mode to Color
+14:50:03.894 State transition: set depth 33.0
+14:50:07.463 State transition: set color wall flter med
+14:50:22.104 State transition: set color hide Off
+14:50:30.679 State transition: set color compare to topbottom
+14:50:34.834 State transition: set acoustic power 60%
+14:51:31.076 State transition: set color flow low
+14:51:45.645 State transition: set color baseline decrease_color_baseline 3 times
+14:51:55.075 State transition: set color invert Off
+14:52:03.864 State transition: set zoom state Off, Color
+14:52:11.305 State transition: set PRF 3472
+14:53:04.965 State transition: set gain decrease_gain 82
+14:53:11.365 State transition: add label add_arrow
+14:53:22.915 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:53:56.889 *** Waiting for USB export to complete. Perform operations while waiting ***
+14:53:56.957 Performing an operation. Total wait time 60 seconds
+14:55:03.081 Changing scanhead from P5-1 to L12-3
+14:55:17.803 Exam selected: Nerve
+14:55:22.977 Choosing 'test option' from initial sequence, step [0]: Patient
+14:55:52.760 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:56:25.273 Performing an operation. Total wait time 120 seconds
+14:57:31.349 Changing scanhead from L12-3 to P5-1
+14:57:46.129 Exam selected: Orbital
+14:57:48.405 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+14:57:48.406 Entering LMiR review mode...
+14:58:43.996 Selecting study in PatientListBox, row 0
+14:58:43.997 Getting study select state for grid = PatientListBox and row = 0
+14:58:59.073 In LMiR review mode.
+14:59:24.797 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+14:59:57.732 Performing an operation. Total wait time 180 seconds
+15:01:03.899 Changing scanhead from P5-1 to L12-3
+15:01:19.042 Exam selected: Carotid
+15:01:28.834 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+15:01:28.835 Entering LMiR review mode...
+15:02:16.289 Selecting study in PatientListBox, row 0
+15:02:16.291 Getting study select state for grid = PatientListBox and row = 0
+15:02:31.030 In LMiR review mode.
+15:02:56.517 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:03:28.706 Performing an operation. Total wait time 240 seconds
+15:04:34.487 Changing scanhead from L12-3 to P5-1
+15:04:48.890 Exam selected: Orbital
+15:04:58.288 Choosing 'test option' from initial sequence, step [3]: PatientList
+15:05:20.881 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:05:52.582 Performing an operation. Total wait time 300 seconds
+15:06:58.522 Changing scanhead from P5-1 to L12-3
+15:07:13.418 Exam selected: Carotid
+15:07:22.821 Choosing 'test option' from initial sequence, step [4]: Review
+15:07:22.823 Special handling of 'Review', will wait for thumbnail...
+15:07:25.164 Total wait time for thumbnail: 2 seconds
+15:07:25.267 Found thumbnail.
+15:07:54.707 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:08:26.490 Performing an operation. Total wait time 360 seconds
+15:09:32.148 Changing scanhead from L12-3 to P5-1
+15:09:46.482 Exam selected: Abdomen
+15:09:48.527 Choosing 'test option' from initial sequence, step [5]: scenario_LMiR_edit
+15:09:48.528 Entering LMiR edit mode... first into LMiR review mode...
+15:09:48.529 Entering LMiR review mode...
+15:10:35.588 Selecting study in PatientListBox, row 0
+15:10:35.590 Getting study select state for grid = PatientListBox and row = 0
+15:10:50.301 In LMiR review mode.
+15:10:50.301 ... after LMiR review mode... now entering LMiR edit mode...
+15:10:51.684 =================================================================
+15:10:51.684 
+15:10:51.684 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+15:10:51.684 =================================================================
+15:11:39.118 In LMiR edit mode.
+15:11:57.686 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:12:29.777 Performing an operation. Total wait time 420 seconds
+15:13:35.613 Changing scanhead from P5-1 to L12-3
+15:13:50.769 Exam selected: PIV
+15:14:05.383 Choosing 'test option' from initial sequence, step [6]: scenario_LMiR_review
+15:14:05.384 Entering LMiR review mode...
+15:14:54.588 Selecting study in PatientListBox, row 0
+15:14:54.589 Getting study select state for grid = PatientListBox and row = 0
+15:15:09.652 In LMiR review mode.
+15:15:40.288 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:16:13.451 Performing an operation. Total wait time 480 seconds
+15:17:19.435 Changing scanhead from L12-3 to P5-1
+15:17:34.082 Exam selected: Transcranial
+15:17:40.487 Choosing 'test option' from initial sequence, step [7]: scenario_LMiR_edit
+15:17:40.489 Entering LMiR edit mode... first into LMiR review mode...
+15:17:40.489 Entering LMiR review mode...
+15:18:28.253 Selecting study in PatientListBox, row 0
+15:18:28.255 Getting study select state for grid = PatientListBox and row = 0
+15:18:42.941 In LMiR review mode.
+15:18:42.941 ... after LMiR review mode... now entering LMiR edit mode...
+15:18:44.345 =================================================================
+15:18:44.345 
+15:18:44.345 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+15:18:44.345 =================================================================
+15:19:32.426 In LMiR edit mode.
+15:19:57.997 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:20:30.353 Performing an operation. Total wait time 540 seconds
+15:21:36.281 Changing scanhead from P5-1 to L12-3
+15:21:51.373 Exam selected: Venous
+15:21:53.359 Choosing 'test option' from initial sequence, step [8]: scenario_LMiR_edit
+15:21:53.360 Entering LMiR edit mode... first into LMiR review mode...
+15:21:53.360 Entering LMiR review mode...
+15:22:40.874 Selecting study in PatientListBox, row 0
+15:22:40.876 Getting study select state for grid = PatientListBox and row = 0
+15:22:56.052 In LMiR review mode.
+15:22:56.052 ... after LMiR review mode... now entering LMiR edit mode...
+15:22:57.440 =================================================================
+15:22:57.440 
+15:22:57.440 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+15:22:57.440 =================================================================
+15:23:45.828 In LMiR edit mode.
+15:24:13.014 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:24:45.738 Performing an operation. Total wait time 600 seconds
+15:25:51.637 Changing scanhead from L12-3 to P5-1
+15:26:05.403 Exam selected: Cardiac
+15:26:16.047 Choosing 'test option' from initial sequence, step [9]: Settings
+15:26:43.412 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:27:15.274 =================================================================
+15:27:15.274 
+15:27:15.274 Select All studies, export to USB.
+15:27:15.274 =================================================================
+15:27:23.727 *** USB Export iteration: 22 ***
+15:27:37.345 Performing export no. 22
+15:27:43.315 Changing scanhead from P5-1 to L12-3
+15:27:53.357 =================================================================
+15:27:53.357 
+15:27:53.357 Registering Patient 22_0 and saving 1 clips, 1 images.
+15:27:53.357 =================================================================
+15:27:59.159 Exam selected: Nerve
+15:27:59.161 State transition: set mode to Color
+15:27:59.161 State transition: set mode to Color
+15:28:07.857 State transition: set depth 7.6
+15:28:29.095 State transition: set color flow med
+15:28:40.544 State transition: set PRF 453
+15:29:33.838 State transition: set color hide On
+15:29:42.400 State transition: set acoustic power 50%
+15:30:42.158 State transition: set zoom state Off, Color
+15:30:52.107 State transition: set color wall flter low
+15:31:06.615 State transition: set color invert On
+15:31:15.946 State transition: set color steering angle 0
+15:31:28.891 State transition: set gain decrease_gain 16
+15:31:33.307 State transition: add label add_text
+15:31:44.934 Saving 1 additional clip for mode Color with dual display or color compare enabled
+15:31:44.935 State transition: set mode to Color
+15:31:54.049 State transition: set depth 2.4
+15:32:20.980 State transition: set to dual and activate DualRightButton
+15:32:36.502 State transition: set color hide On
+15:32:44.884 State transition: set color wall flter high
+15:33:00.546 State transition: set zoom state Off, Color
+15:33:04.055 State transition: set color invert Off
+15:33:13.212 State transition: set acoustic power 100%
+15:33:54.061 State transition: set color flow high
+15:34:12.093 State transition: set PRF 5435
+15:34:45.678 State transition: set color steering angle -20
+15:34:56.105 State transition: set gain decrease_gain 28
+15:34:59.698 State transition: add label add_arrow
+15:35:11.060 State transition: set mode to B-MODE
+15:35:11.061 State transition: set mode to B-MODE
+15:35:12.778 State transition: set depth 5.5
+15:35:16.712 State transition: set auto gain adjust level 3
+15:36:04.715 State transition: set optimization Res
+15:36:07.949 State transition: set thermal index TIB
+15:36:15.898 State transition: set dynamic range 1
+15:36:58.275 No case to set image optimization for TrapezoidControl
+15:37:12.199 State transition: set zoom state Off, B-MODE
+15:37:15.783 State transition: set procedure mode On
+15:37:25.489 State transition: set THI On
+15:37:36.722 State transition: set orientation LL
+15:38:08.745 State transition: set needle profiling left
+15:38:13.558 State transition: set acoustic power 40%
+15:39:12.550 State transition: set gain increase_gain 67
+15:39:14.747 State transition: set freeze state false
+15:39:16.989 State transition: add label add_text
+15:39:17.047 State transition: adding skinline msrmnt to B-MODE
+15:39:22.651 Saving 1 additional image for mode B-MODE with dual display or color compare enabled
+15:39:22.653 State transition: set mode to B-MODE
+15:39:23.611 State transition: set depth 9.0
+15:39:27.522 State transition: set needle profiling left
+15:39:31.226 State transition: set optimization Gen
+15:39:45.829 State transition: set thermal index TIC
+15:39:57.268 State transition: set auto gain adjust level 1
+15:40:53.833 State transition: set acoustic power 40%
+15:41:40.924 State transition: set procedure mode On
+15:41:56.046 State transition: set THI On
+15:42:03.471 State transition: set dynamic range 0
+15:42:39.242 State transition: set orientation UL
+15:43:09.171 State transition: set gain decrease_gain 71
+15:43:11.542 State transition: set freeze state false
+15:43:13.856 State transition: add label add_arrow
+15:43:13.917 State transition: adding skinline msrmnt to B-MODE
+15:43:19.756 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:43:52.595 =================================================================
+15:43:52.595 
+15:43:52.595 Registering Patient 22_1 and saving 1 clips, 1 images.
+15:43:52.595 =================================================================
+15:43:58.566 Exam selected: Nerve
+15:43:58.568 State transition: set mode to B-MODE
+15:43:58.568 State transition: set mode to B-MODE
+15:43:59.410 State transition: set depth 2.1
+15:44:12.086 State transition: set auto gain adjust level 2
+15:45:04.275 No case to set image optimization for TrapezoidControl
+15:45:07.508 State transition: set thermal index TIC
+15:45:18.703 State transition: set needle profiling left
+15:45:23.465 State transition: set acoustic power 10%
+15:46:35.305 State transition: set dynamic range 3
+15:47:25.435 State transition: set optimization Res
+15:47:28.684 State transition: set THI Off
+15:47:41.025 State transition: set procedure mode On
+15:47:55.383 State transition: set orientation UR
+15:48:24.618 State transition: set gain decrease_gain 68
+15:48:29.314 State transition: add label add_arrow
+15:48:40.656 Saving 1 additional clip for mode B-MODE with dual display or color compare enabled
+15:48:40.657 State transition: set mode to B-MODE
+15:48:42.063 State transition: set depth 2.1
+15:48:49.648 State transition: set thermal index TIC
+15:48:56.390 State transition: set dynamic range -1
+15:49:25.202 State transition: set procedure mode On
+15:49:36.993 State transition: set acoustic power 60%
+15:50:12.903 State transition: set orientation LR
+15:50:37.258 State transition: set needle profiling left
+15:50:43.826 State transition: set THI Off
+15:50:51.902 State transition: set gain reset
+15:51:01.147 State transition: set auto gain adjust level 3
+15:51:52.268 State transition: set optimization Gen
+15:52:03.447 State transition: set gain decrease_gain 73
+15:52:07.986 State transition: add label add_text
+15:52:19.512 State transition: set mode to Color
+15:52:19.513 State transition: set mode to Color
+15:52:28.954 State transition: set depth 2.1
+15:52:33.202 State transition: set PRF 2155
+15:52:48.317 State transition: set color steering angle 0
+15:53:06.516 State transition: set zoom state On, Color
+15:53:13.614 State transition: set color wall flter high
+15:53:29.284 State transition: set color invert Off
+15:53:41.142 State transition: set acoustic power 70%
+15:54:39.756 State transition: set color flow low
+15:54:56.833 State transition: set color hide On
+15:55:02.194 State transition: set gain decrease_gain 68
+15:55:06.986 State transition: set freeze state false
+15:55:09.338 State transition: add label add_text
+15:55:09.400 State transition: adding skinline msrmnt to Color
+15:55:15.076 Saving 1 additional image for mode Color with dual display or color compare enabled
+15:55:15.078 State transition: set mode to Color
+15:55:24.930 State transition: set depth 4.0
+15:55:29.015 State transition: set acoustic power 20%
+15:56:29.442 State transition: set PRF 361
+15:56:49.102 State transition: set color invert Off
+15:57:00.663 State transition: set color hide Off
+15:57:09.023 State transition: set color wall flter med
+15:57:24.353 State transition: set zoom state Off, Color
+15:57:28.265 State transition: set color steering angle -20
+15:57:45.009 State transition: set color compare to leftright
+15:57:52.673 State transition: set color flow high
+15:58:02.928 State transition: set gain increase_gain 96
+15:58:07.019 State transition: set freeze state false
+15:58:09.487 State transition: add label add_picto
+15:58:09.547 State transition: adding skinline msrmnt to Color
+15:58:15.174 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+15:58:48.906 *** Waiting for USB export to complete. Perform operations while waiting ***
+15:58:48.958 Performing an operation. Total wait time 60 seconds
+15:59:54.932 Changing scanhead from L12-3 to P5-1
+16:00:09.602 Exam selected: Orbital
+16:00:19.372 Choosing 'test option' from initial sequence, step [0]: Patient
+16:00:48.803 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:01:21.376 Performing an operation. Total wait time 120 seconds
+16:02:27.644 Changing scanhead from P5-1 to L12-3
+16:02:43.064 Exam selected: Breast
+16:02:49.143 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+16:02:49.144 Entering LMiR review mode...
+16:03:44.193 Selecting study in PatientListBox, row 0
+16:03:44.195 Getting study select state for grid = PatientListBox and row = 0
+16:03:58.947 In LMiR review mode.
+16:04:24.633 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:04:56.824 Performing an operation. Total wait time 180 seconds
+16:06:02.740 Changing scanhead from L12-3 to P5-1
+16:06:17.267 Exam selected: OB
+16:06:22.071 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+16:06:22.072 Entering LMiR review mode...
+16:07:10.994 Selecting study in PatientListBox, row 0
+16:07:10.996 Getting study select state for grid = PatientListBox and row = 0
+16:07:25.571 In LMiR review mode.
+16:07:50.337 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:08:22.692 Performing an operation. Total wait time 240 seconds
+16:09:28.605 Changing scanhead from P5-1 to L12-3
+16:09:43.741 Exam selected: Arterial
+16:09:53.747 Choosing 'test option' from initial sequence, step [3]: PatientList
+16:10:17.242 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:10:49.098 Performing an operation. Total wait time 300 seconds
+16:11:54.867 Changing scanhead from L12-3 to P5-1
+16:12:09.256 Exam selected: OB
+16:12:18.850 Choosing 'test option' from initial sequence, step [4]: Review
+16:12:18.851 Special handling of 'Review', will wait for thumbnail...
+16:12:18.940 Found thumbnail.
+16:12:48.192 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:13:20.520 Performing an operation. Total wait time 360 seconds
+16:14:26.550 Changing scanhead from P5-1 to L12-3
+16:14:41.860 Exam selected: Musculoskeletal
+16:14:44.069 Choosing 'test option' from initial sequence, step [5]: scenario_LMiR_edit
+16:14:44.070 Entering LMiR edit mode... first into LMiR review mode...
+16:14:44.071 Entering LMiR review mode...
+16:15:33.852 Selecting study in PatientListBox, row 0
+16:15:33.852 Getting study select state for grid = PatientListBox and row = 0
+16:15:48.617 In LMiR review mode.
+16:15:48.617 ... after LMiR review mode... now entering LMiR edit mode...
+16:15:50.020 =================================================================
+16:15:50.020 
+16:15:50.020 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+16:15:50.020 =================================================================
+16:16:39.130 In LMiR edit mode.
+16:16:57.149 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:17:27.011 =================================================================
+16:17:27.011 
+16:17:27.011 Select All studies, export to USB.
+16:17:27.011 =================================================================
+16:17:35.541 *** USB Export iteration: 23 ***
+16:17:49.536 Performing export no. 23
+16:17:55.666 Changing scanhead from L12-3 to P5-1
+16:18:04.835 =================================================================
+16:18:04.835 
+16:18:04.835 Registering Patient 23_0 and saving 0 clips, 0 images.
+16:18:04.835 =================================================================
+16:18:10.609 Exam selected: FocusedCardiac
+16:18:10.611 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:18:43.491 =================================================================
+16:18:43.491 
+16:18:43.491 Registering Patient 23_1 and saving 0 clips, 0 images.
+16:18:43.491 =================================================================
+16:18:49.220 Exam selected: FocusedCardiac
+16:18:49.222 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:19:21.741 *** Waiting for USB export to complete. Perform operations while waiting ***
+16:19:21.810 Performing an operation. Total wait time 60 seconds
+16:20:27.938 Changing scanhead from P5-1 to L12-3
+16:20:43.183 Exam selected: Carotid
+16:20:49.154 Choosing 'test option' from initial sequence, step [0]: Patient
+16:21:19.628 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:21:51.767 Performing an operation. Total wait time 120 seconds
+16:22:57.594 Changing scanhead from L12-3 to P5-1
+16:23:12.160 Exam selected: Abdomen
+16:23:14.493 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+16:23:14.493 Entering LMiR review mode...
+16:24:10.704 Selecting study in PatientListBox, row 0
+16:24:10.705 Getting study select state for grid = PatientListBox and row = 0
+16:24:25.790 In LMiR review mode.
+16:24:51.201 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:25:23.609 Performing an operation. Total wait time 180 seconds
+16:26:29.436 Changing scanhead from P5-1 to L12-3
+16:26:44.409 Exam selected: Nerve
+16:26:47.020 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+16:26:47.021 Entering LMiR review mode...
+16:27:34.292 Selecting study in PatientListBox, row 0
+16:27:34.294 Getting study select state for grid = PatientListBox and row = 0
+16:27:49.191 In LMiR review mode.
+16:28:14.735 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:28:47.035 Performing an operation. Total wait time 240 seconds
+16:29:52.886 Changing scanhead from L12-3 to P5-1
+16:30:07.632 Exam selected: Abdomen
+16:30:16.877 Choosing 'test option' from initial sequence, step [3]: PatientList
+16:30:48.701 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:31:20.430 Performing an operation. Total wait time 300 seconds
+16:32:26.288 Changing scanhead from P5-1 to L12-3
+16:32:41.573 Exam selected: PIV
+16:32:46.766 Choosing 'test option' from initial sequence, step [4]: Review
+16:32:46.768 Special handling of 'Review', will wait for thumbnail...
+16:32:46.905 Found thumbnail.
+16:33:21.779 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:33:54.457 Performing an operation. Total wait time 360 seconds
+16:34:59.986 Changing scanhead from L12-3 to P5-1
+16:35:14.421 Exam selected: Lung
+16:35:23.299 Choosing 'test option' from initial sequence, step [5]: scenario_LMiR_edit
+16:35:23.300 Entering LMiR edit mode... first into LMiR review mode...
+16:35:23.301 Entering LMiR review mode...
+16:36:11.754 Selecting study in PatientListBox, row 0
+16:36:11.755 Getting study select state for grid = PatientListBox and row = 0
+16:36:26.787 In LMiR review mode.
+16:36:26.787 ... after LMiR review mode... now entering LMiR edit mode...
+16:36:28.203 =================================================================
+16:36:28.203 
+16:36:28.203 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+16:36:28.203 =================================================================
+16:37:16.838 In LMiR edit mode.
+16:37:42.320 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:38:14.364 Performing an operation. Total wait time 420 seconds
+16:39:20.372 Changing scanhead from P5-1 to L12-3
+16:39:35.732 Exam selected: Superficial
+16:39:38.011 Choosing 'test option' from initial sequence, step [6]: scenario_LMiR_review
+16:39:38.011 Entering LMiR review mode...
+16:40:25.262 Selecting study in PatientListBox, row 0
+16:40:25.264 Getting study select state for grid = PatientListBox and row = 0
+16:40:40.358 In LMiR review mode.
+16:41:05.278 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:41:37.483 Performing an operation. Total wait time 480 seconds
+16:42:43.481 Changing scanhead from L12-3 to P5-1
+16:42:57.516 Exam selected: Cardiac
+16:43:11.600 Choosing 'test option' from initial sequence, step [7]: scenario_LMiR_edit
+16:43:11.600 Entering LMiR edit mode... first into LMiR review mode...
+16:43:11.602 Entering LMiR review mode...
+16:44:00.639 Selecting study in PatientListBox, row 0
+16:44:00.640 Getting study select state for grid = PatientListBox and row = 0
+16:44:15.633 In LMiR review mode.
+16:44:15.633 ... after LMiR review mode... now entering LMiR edit mode...
+16:44:17.035 =================================================================
+16:44:17.035 
+16:44:17.035 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+16:44:17.035 =================================================================
+16:45:05.567 In LMiR edit mode.
+16:45:24.486 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:45:56.379 Performing an operation. Total wait time 540 seconds
+16:47:02.647 Changing scanhead from P5-1 to L12-3
+16:47:18.223 Exam selected: Ophthalmic
+16:47:28.242 Choosing 'test option' from initial sequence, step [8]: scenario_LMiR_edit
+16:47:28.244 Entering LMiR edit mode... first into LMiR review mode...
+16:47:28.244 Entering LMiR review mode...
+16:48:15.568 Selecting study in PatientListBox, row 0
+16:48:15.569 Getting study select state for grid = PatientListBox and row = 0
+16:48:30.518 In LMiR review mode.
+16:48:30.518 ... after LMiR review mode... now entering LMiR edit mode...
+16:48:31.906 =================================================================
+16:48:31.906 
+16:48:31.906 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+16:48:31.906 =================================================================
+16:49:19.897 In LMiR edit mode.
+16:49:38.535 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:50:09.932 Performing an operation. Total wait time 600 seconds
+16:51:15.692 Changing scanhead from L12-3 to P5-1
+16:51:30.098 Exam selected: OB
+16:51:34.676 Choosing 'test option' from initial sequence, step [9]: Settings
+16:52:10.726 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:52:43.361 Performing an operation. Total wait time 660 seconds
+16:53:49.456 Changing scanhead from P5-1 to L12-3
+16:54:04.601 Exam selected: Breast
+16:54:06.655 Choosing 'test option' at random, step [10]: Patient
+16:54:28.078 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:54:59.687 Performing an operation. Total wait time 720 seconds
+16:56:05.633 Changing scanhead from L12-3 to P5-1
+16:56:19.658 Exam selected: Cardiac
+16:56:24.484 Choosing 'test option' at random, step [11]: scenario_LMiR_edit
+16:56:24.485 Entering LMiR edit mode... first into LMiR review mode...
+16:56:24.485 Entering LMiR review mode...
+16:57:13.309 Selecting study in PatientListBox, row 0
+16:57:13.311 Getting study select state for grid = PatientListBox and row = 0
+16:57:28.232 In LMiR review mode.
+16:57:28.232 ... after LMiR review mode... now entering LMiR edit mode...
+16:57:29.648 =================================================================
+16:57:29.648 
+16:57:29.648 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+16:57:29.648 =================================================================
+16:58:16.967 In LMiR edit mode.
+16:58:35.352 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+16:59:07.541 Performing an operation. Total wait time 780 seconds
+17:00:13.632 Changing scanhead from P5-1 to L12-3
+17:00:28.941 Exam selected: Breast
+17:00:38.254 Choosing 'test option' at random, step [12]: scenario_LMiR_review
+17:00:38.256 Entering LMiR review mode...
+17:01:27.272 Selecting study in PatientListBox, row 0
+17:01:27.272 Getting study select state for grid = PatientListBox and row = 0
+17:01:42.211 In LMiR review mode.
+17:02:06.946 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:02:39.521 Performing an operation. Total wait time 840 seconds
+17:03:45.124 Changing scanhead from L12-3 to P5-1
+17:03:59.223 Exam selected: Cardiac
+17:04:12.196 Choosing 'test option' at random, step [13]: Settings
+17:04:52.875 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:05:25.838 Performing an operation. Total wait time 900 seconds
+17:06:31.381 Changing scanhead from P5-1 to L12-3
+17:06:46.894 Exam selected: Carotid
+17:06:54.475 Choosing 'test option' at random, step [14]: scenario_LMiR_review
+17:06:54.476 Entering LMiR review mode...
+17:07:36.836 Selecting study in PatientListBox, row 0
+17:07:36.838 Getting study select state for grid = PatientListBox and row = 0
+17:07:51.369 In LMiR review mode.
+17:08:09.022 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:08:38.504 =================================================================
+17:08:38.504 
+17:08:38.504 Select All studies, export to USB.
+17:08:38.504 =================================================================
+17:08:46.883 *** USB Export iteration: 24 ***
+17:09:01.035 Performing export no. 24
+17:09:06.637 Changing scanhead from L12-3 to P5-1
+17:09:15.698 =================================================================
+17:09:15.698 
+17:09:15.698 Registering Patient 24_0 and saving 0 clips, 0 images.
+17:09:15.698 =================================================================
+17:09:21.478 Exam selected: FocusedCardiac
+17:09:21.480 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:09:54.209 =================================================================
+17:09:54.209 
+17:09:54.209 Registering Patient 24_1 and saving 1 clips, 1 images.
+17:09:54.209 =================================================================
+17:09:59.877 Exam selected: FocusedCardiac
+17:09:59.880 State transition: set mode to B-MODE
+17:09:59.880 State transition: set mode to B-MODE
+17:10:00.726 State transition: set depth 29.0
+17:10:23.022 State transition: set THI Off
+17:10:32.349 State transition: set sector Off
+17:10:43.625 State transition: set thermal index TIC
+17:10:51.693 State transition: set procedure mode On
+17:11:00.284 State transition: set zoom state On, B-MODE
+17:11:08.008 State transition: set dynamic range 1
+17:11:53.318 State transition: set optimization Pen
+17:11:59.760 State transition: set auto gain adjust level -4
+17:13:04.091 State transition: set acoustic power 70%
+17:13:58.720 State transition: set orientation UL
+17:14:32.411 State transition: set gain increase_gain 69
+17:14:36.952 State transition: add label add_picto
+17:14:48.417 Saving 1 additional clip for mode B-MODE with dual display or color compare enabled
+17:14:48.420 State transition: set mode to B-MODE
+17:14:50.041 State transition: set depth 33.0
+17:15:07.775 State transition: set THI Off
+17:15:15.759 State transition: set to dual and activate DualLeftButton
+17:15:37.234 State transition: set zoom state Off, B-MODE
+17:15:42.163 State transition: set acoustic power 20%
+17:16:42.066 State transition: set auto gain adjust level 5
+17:17:22.168 State transition: set thermal index TIS
+17:17:32.151 State transition: set orientation UR
+17:18:08.952 State transition: set sector Off
+17:18:17.889 State transition: set procedure mode On
+17:18:26.512 State transition: set dynamic range 3
+17:19:10.599 State transition: set optimization Pen
+17:19:10.662 State transition: set gain increase_gain 49
+17:19:14.534 State transition: add label add_arrow
+17:19:26.145 State transition: set mode to Variance
+17:19:26.147 State transition: set mode to Variance
+17:19:41.377 State transition: set depth 19.0
+17:19:49.459 State transition: set acoustic power 60%
+17:20:47.398 State transition: set color flow low
+17:20:57.991 State transition: set color baseline decrease_color_baseline 8 times
+17:21:17.262 State transition: set color invert Off
+17:21:25.942 State transition: set PRF 1471
+17:21:51.278 State transition: set color wall flter low
+17:22:05.544 State transition: set zoom state Off, Variance
+17:22:08.801 State transition: set color hide On
+17:22:27.631 State transition: set gain decrease_gain 44
+17:22:29.722 State transition: set freeze state true
+17:22:32.537 State transition: add label add_picto
+17:22:39.840 State transition: adding add_curved_distance to Variance
+17:22:50.987 Saving 1 additional image for mode Variance with dual display or color compare enabled
+17:22:50.988 State transition: set mode to Variance
+17:23:04.916 State transition: set depth 33.0
+17:23:08.327 State transition: set to dual and activate DualRightButton
+17:23:23.901 State transition: set color flow low
+17:23:42.665 State transition: set color baseline increase_color_baseline 1 times
+17:23:48.110 State transition: set acoustic power 20%
+17:24:47.872 State transition: set color invert Off
+17:24:56.398 State transition: set zoom state Off, Variance
+17:24:59.909 State transition: set color hide Off
+17:25:12.108 State transition: set PRF 2500
+17:25:37.448 State transition: set color wall flter med
+17:25:47.601 State transition: set gain decrease_gain 96
+17:25:51.345 State transition: set freeze state true
+17:25:54.076 State transition: add label add_text
+17:26:01.618 State transition: adding add_distance to Variance
+17:26:06.977 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:26:40.630 *** Waiting for USB export to complete. Perform operations while waiting ***
+17:26:40.682 Performing an operation. Total wait time 60 seconds
+17:27:46.760 Changing scanhead from P5-1 to L12-3
+17:28:02.014 Exam selected: PIV
+17:28:04.241 Choosing 'test option' from initial sequence, step [0]: Patient
+17:28:40.516 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:29:13.576 Performing an operation. Total wait time 120 seconds
+17:30:19.607 Changing scanhead from L12-3 to P5-1
+17:30:34.072 Exam selected: Transcranial
+17:30:39.114 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+17:30:39.116 Entering LMiR review mode...
+17:31:34.983 Selecting study in PatientListBox, row 0
+17:31:34.985 Getting study select state for grid = PatientListBox and row = 0
+17:31:49.885 In LMiR review mode.
+17:32:14.807 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:32:46.619 Performing an operation. Total wait time 180 seconds
+17:33:52.419 Changing scanhead from P5-1 to L12-3
+17:34:08.165 Exam selected: Musculoskeletal
+17:34:13.127 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+17:34:13.128 Entering LMiR review mode...
+17:35:04.024 Selecting study in PatientListBox, row 0
+17:35:04.026 Getting study select state for grid = PatientListBox and row = 0
+17:35:18.789 In LMiR review mode.
+17:35:37.051 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:36:09.126 Performing an operation. Total wait time 240 seconds
+17:37:15.227 Changing scanhead from L12-3 to P5-1
+17:37:29.740 Exam selected: OB
+17:37:34.657 Choosing 'test option' from initial sequence, step [3]: PatientList
+17:38:05.638 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:38:37.878 Performing an operation. Total wait time 300 seconds
+17:39:43.899 Changing scanhead from P5-1 to L12-3
+17:39:59.084 Exam selected: Arterial
+17:40:09.342 Choosing 'test option' from initial sequence, step [4]: Review
+17:40:09.343 Special handling of 'Review', will wait for thumbnail...
+17:40:09.482 Found thumbnail.
+17:40:30.357 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:41:01.945 Performing an operation. Total wait time 360 seconds
+17:42:07.845 Changing scanhead from L12-3 to P5-1
+17:42:22.396 Exam selected: Lung
+17:42:27.153 Choosing 'test option' from initial sequence, step [5]: scenario_LMiR_edit
+17:42:27.154 Entering LMiR edit mode... first into LMiR review mode...
+17:42:27.154 Entering LMiR review mode...
+17:43:14.609 Selecting study in PatientListBox, row 0
+17:43:14.612 Getting study select state for grid = PatientListBox and row = 0
+17:43:29.451 In LMiR review mode.
+17:43:29.451 ... after LMiR review mode... now entering LMiR edit mode...
+17:43:30.848 =================================================================
+17:43:30.848 
+17:43:30.848 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+17:43:30.848 =================================================================
+17:44:18.282 In LMiR edit mode.
+17:44:36.657 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:45:08.802 Performing an operation. Total wait time 420 seconds
+17:46:14.787 Changing scanhead from P5-1 to L12-3
+17:46:30.631 Exam selected: Arterial
+17:46:33.029 Choosing 'test option' from initial sequence, step [6]: scenario_LMiR_review
+17:46:33.030 Entering LMiR review mode...
+17:47:21.526 Selecting study in PatientListBox, row 0
+17:47:21.528 Getting study select state for grid = PatientListBox and row = 0
+17:47:36.613 In LMiR review mode.
+17:48:02.301 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:48:35.068 Performing an operation. Total wait time 480 seconds
+17:49:41.110 Changing scanhead from L12-3 to P5-1
+17:49:55.624 Exam selected: Lung
+17:50:01.530 Choosing 'test option' from initial sequence, step [7]: scenario_LMiR_edit
+17:50:01.531 Entering LMiR edit mode... first into LMiR review mode...
+17:50:01.532 Entering LMiR review mode...
+17:50:49.064 Selecting study in PatientListBox, row 0
+17:50:49.065 Getting study select state for grid = PatientListBox and row = 0
+17:51:04.248 In LMiR review mode.
+17:51:04.248 ... after LMiR review mode... now entering LMiR edit mode...
+17:51:05.650 =================================================================
+17:51:05.650 
+17:51:05.650 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+17:51:05.650 =================================================================
+17:51:53.711 In LMiR edit mode.
+17:52:12.165 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:52:43.724 Performing an operation. Total wait time 540 seconds
+17:53:49.610 Changing scanhead from P5-1 to L12-3
+17:54:04.726 Exam selected: Venous
+17:54:09.556 Choosing 'test option' from initial sequence, step [8]: scenario_LMiR_edit
+17:54:09.557 Entering LMiR edit mode... first into LMiR review mode...
+17:54:09.558 Entering LMiR review mode...
+17:54:59.902 Selecting study in PatientListBox, row 0
+17:54:59.904 Getting study select state for grid = PatientListBox and row = 0
+17:55:14.826 In LMiR review mode.
+17:55:14.826 ... after LMiR review mode... now entering LMiR edit mode...
+17:55:16.228 =================================================================
+17:55:16.228 
+17:55:16.228 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+17:55:16.228 =================================================================
+17:56:04.660 In LMiR edit mode.
+17:56:31.762 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:57:04.204 Performing an operation. Total wait time 600 seconds
+17:58:10.268 Changing scanhead from L12-3 to P5-1
+17:58:24.113 Exam selected: FocusedCardiac
+17:58:26.605 Choosing 'test option' from initial sequence, step [9]: Settings
+17:58:53.978 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+17:59:25.926 Performing an operation. Total wait time 660 seconds
+18:00:32.045 Changing scanhead from P5-1 to L12-3
+18:00:47.061 Exam selected: Musculoskeletal
+18:00:53.256 Choosing 'test option' at random, step [10]: scenario_LMiR_edit
+18:00:53.258 Entering LMiR edit mode... first into LMiR review mode...
+18:00:53.259 Entering LMiR review mode...
+18:01:44.225 Selecting study in PatientListBox, row 0
+18:01:44.226 Getting study select state for grid = PatientListBox and row = 0
+18:01:59.263 In LMiR review mode.
+18:01:59.263 ... after LMiR review mode... now entering LMiR edit mode...
+18:02:00.701 =================================================================
+18:02:00.701 
+18:02:00.701 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+18:02:00.701 =================================================================
+18:02:49.719 In LMiR edit mode.
+18:03:16.100 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:03:49.229 Performing an operation. Total wait time 720 seconds
+18:04:55.382 Changing scanhead from L12-3 to P5-1
+18:05:09.951 Exam selected: Lung
+18:05:14.763 Choosing 'test option' at random, step [11]: PatientList
+18:05:47.499 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:06:19.248 Performing an operation. Total wait time 780 seconds
+18:07:25.248 Changing scanhead from P5-1 to L12-3
+18:07:40.049 Exam selected: Breast
+18:07:45.335 Choosing 'test option' at random, step [12]: PatientList
+18:08:09.943 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:08:40.702 =================================================================
+18:08:40.702 
+18:08:40.702 Select All studies, export to USB.
+18:08:40.702 =================================================================
+18:08:49.146 *** USB Export iteration: 25 ***
+18:09:03.410 Performing export no. 25
+18:09:09.097 Changing scanhead from L12-3 to P5-1
+18:09:18.001 =================================================================
+18:09:18.001 
+18:09:18.001 Registering Patient 25_0 and saving 1 clips, 1 images.
+18:09:18.001 =================================================================
+18:09:23.917 Exam selected: FocusedCardiac
+18:09:23.918 State transition: set mode to Variance
+18:09:23.919 State transition: set mode to Variance
+18:09:37.679 State transition: set depth 19.0
+18:09:41.463 State transition: set color invert Off
+18:09:50.033 State transition: set color wall flter high
+18:10:04.344 State transition: set zoom state On, Variance
+18:10:15.209 State transition: set acoustic power 40%
+18:11:27.921 State transition: set PRF 3289
+18:11:37.869 State transition: set color hide On
+18:11:46.846 State transition: set color flow low
+18:12:01.203 State transition: set color baseline decrease_color_baseline 8 times
+18:12:20.880 State transition: set gain decrease_gain 38
+18:12:24.866 State transition: add label add_text
+18:12:36.462 Saving 1 additional clip for mode Variance with dual display or color compare enabled
+18:12:36.465 State transition: set mode to Variance
+18:12:51.877 State transition: set depth 23.0
+18:13:05.920 State transition: set zoom state Off, Variance
+18:13:09.558 State transition: set color compare to topbottom
+18:13:24.583 State transition: set color baseline decrease_color_baseline 2 times
+18:13:30.824 State transition: set color wall flter med
+18:13:44.257 State transition: set color flow high
+18:13:58.995 State transition: set acoustic power 80%
+18:14:38.425 State transition: set color invert On
+18:14:48.118 State transition: set PRF 874
+18:16:12.174 State transition: set gain decrease_gain 85
+18:16:18.053 State transition: add label add_text
+18:16:29.434 State transition: set mode to CWDOPPLER
+18:16:29.435 State transition: set mode to CWDOPPLER
+18:16:45.389 State transition: set display format to DisplayFormatSplitTwoThirdButton
+18:16:58.427 State transition: set acoustic power 80%
+18:17:57.544 State transition: set doppler baseline index 3
+18:18:03.966 State transition: set doppler volume index 6
+18:18:12.433 State transition: set doppler invert On
+18:18:21.742 State transition: set doppler sweep speed SLOW_D
+18:18:52.356 State transition: set auto trace PeakAboveButton
+18:19:04.002 State transition: set doppler scale 20833
+18:19:11.895 State transition: set doppler wall flter low
+18:19:30.600 State transition: set gain decrease_gain 62
+18:19:34.941 State transition: set freeze state true
+18:19:37.628 State transition: add label add_picto
+18:19:52.888 State transition: adding add_heart to CWDOPPLER
+18:20:01.159 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:20:35.435 =================================================================
+18:20:35.435 
+18:20:35.435 Registering Patient 25_1 and saving 1 clips, 0 images.
+18:20:35.435 =================================================================
+18:20:41.545 Exam selected: FocusedCardiac
+18:20:41.546 State transition: set mode to B-MODE
+18:20:41.546 State transition: set mode to B-MODE
+18:20:42.416 State transition: set depth 29.0
+18:21:00.506 State transition: set dynamic range -1
+18:21:41.597 State transition: set LVO Off
+18:21:50.124 State transition: set orientation UR
+18:22:18.448 State transition: set optimization Gen
+18:22:25.137 State transition: set thermal index TIB
+18:22:34.929 State transition: set acoustic power 10%
+18:23:44.246 State transition: set procedure mode On
+18:23:52.789 State transition: set sector Off
+18:24:04.268 State transition: set auto gain adjust level 2
+18:24:54.519 State transition: set zoom state Off, B-MODE
+18:24:57.974 State transition: set THI Off
+18:25:03.823 State transition: set gain increase_gain 64
+18:25:08.165 State transition: add label add_arrow
+18:25:19.726 Saving 1 additional clip for mode B-MODE with dual display or color compare enabled
+18:25:19.727 State transition: set mode to B-MODE
+18:25:20.887 State transition: set depth 35.0
+18:25:33.668 State transition: set orientation UL
+18:26:05.000 State transition: set procedure mode Off
+18:26:14.502 State transition: set acoustic power 30%
+18:26:56.523 State transition: set zoom state On, B-MODE
+18:27:12.500 State transition: set thermal index TIB
+18:27:22.404 State transition: set dynamic range -1
+18:28:02.208 State transition: set to dual and activate DualLeftButton
+18:28:19.459 State transition: set optimization Pen
+18:28:34.455 State transition: set THI Off
+18:28:46.343 State transition: set auto gain adjust level -6
+18:29:53.167 State transition: set gain decrease_gain 13
+18:29:55.857 State transition: add label add_picto
+18:30:07.216 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:30:40.955 *** Waiting for USB export to complete. Perform operations while waiting ***
+18:30:41.068 Performing an operation. Total wait time 60 seconds
+18:31:47.076 Changing scanhead from P5-1 to L12-3
+18:32:02.697 Exam selected: Lung
+18:32:12.518 Choosing 'test option' from initial sequence, step [0]: Patient
+18:32:42.315 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:33:14.336 Performing an operation. Total wait time 120 seconds
+18:34:20.248 Changing scanhead from L12-3 to P5-1
+18:34:34.695 Exam selected: Orbital
+18:34:44.183 Choosing 'test option' from initial sequence, step [1]: scenario_LMiR_review
+18:34:44.184 Entering LMiR review mode...
+18:35:40.622 Selecting study in PatientListBox, row 0
+18:35:40.624 Getting study select state for grid = PatientListBox and row = 0
+18:35:55.851 In LMiR review mode.
+18:36:21.184 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:36:53.778 Performing an operation. Total wait time 180 seconds
+18:37:59.675 Changing scanhead from P5-1 to L12-3
+18:38:15.059 Exam selected: Arterial
+18:38:21.172 Choosing 'test option' from initial sequence, step [2]: scenario_LMiR_review
+18:38:21.173 Entering LMiR review mode...
+18:39:10.557 Selecting study in PatientListBox, row 0
+18:39:10.559 Getting study select state for grid = PatientListBox and row = 0
+18:39:25.662 In LMiR review mode.
+18:39:51.900 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:40:24.740 Performing an operation. Total wait time 240 seconds
+18:41:30.511 Changing scanhead from L12-3 to P5-1
+18:41:45.129 Exam selected: Orbital
+18:41:54.987 Choosing 'test option' from initial sequence, step [3]: PatientList
+18:42:26.135 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:42:58.519 Performing an operation. Total wait time 300 seconds
+18:44:04.434 Changing scanhead from P5-1 to L12-3
+18:44:19.686 Exam selected: Arterial
+18:44:21.979 Choosing 'test option' from initial sequence, step [4]: Review
+18:44:21.979 Special handling of 'Review', will wait for thumbnail...
+18:44:22.070 Found thumbnail.
+18:44:42.825 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:45:14.842 Performing an operation. Total wait time 360 seconds
+18:46:20.759 Changing scanhead from L12-3 to P5-1
+18:46:35.446 Exam selected: Orbital
+18:46:44.651 Choosing 'test option' from initial sequence, step [5]: scenario_LMiR_edit
+18:46:44.653 Entering LMiR edit mode... first into LMiR review mode...
+18:46:44.653 Entering LMiR review mode...
+18:47:32.911 Selecting study in PatientListBox, row 0
+18:47:32.913 Getting study select state for grid = PatientListBox and row = 0
+18:47:47.684 In LMiR review mode.
+18:47:47.684 ... after LMiR review mode... now entering LMiR edit mode...
+18:47:49.099 =================================================================
+18:47:49.099 
+18:47:49.099 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+18:47:49.099 =================================================================
+18:48:36.284 In LMiR edit mode.
+18:49:01.662 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:49:34.232 Performing an operation. Total wait time 420 seconds
+18:50:40.279 Changing scanhead from P5-1 to L12-3
+18:50:55.523 Exam selected: PIV
+18:50:57.928 Choosing 'test option' from initial sequence, step [6]: scenario_LMiR_review
+18:50:57.929 Entering LMiR review mode...
+18:51:46.955 Selecting study in PatientListBox, row 0
+18:51:46.957 Getting study select state for grid = PatientListBox and row = 0
+18:52:01.905 In LMiR review mode.
+18:52:20.184 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:52:51.716 Performing an operation. Total wait time 480 seconds
+18:53:57.493 Changing scanhead from L12-3 to P5-1
+18:54:11.858 Exam selected: Lung
+18:54:21.102 Choosing 'test option' from initial sequence, step [7]: scenario_LMiR_edit
+18:54:21.104 Entering LMiR edit mode... first into LMiR review mode...
+18:54:21.105 Entering LMiR review mode...
+18:55:09.901 Selecting study in PatientListBox, row 0
+18:55:09.902 Getting study select state for grid = PatientListBox and row = 0
+18:55:25.025 In LMiR review mode.
+18:55:25.025 ... after LMiR review mode... now entering LMiR edit mode...
+18:55:26.472 =================================================================
+18:55:26.472 
+18:55:26.472 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+18:55:26.472 =================================================================
+18:56:13.981 In LMiR edit mode.
+18:56:32.436 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+18:57:04.231 Performing an operation. Total wait time 540 seconds
+18:58:10.098 Changing scanhead from P5-1 to L12-3
+18:58:25.467 Exam selected: Ophthalmic
+18:58:30.413 Choosing 'test option' from initial sequence, step [8]: scenario_LMiR_edit
+18:58:30.414 Entering LMiR edit mode... first into LMiR review mode...
+18:58:30.415 Entering LMiR review mode...
+18:59:19.306 Selecting study in PatientListBox, row 0
+18:59:19.306 Getting study select state for grid = PatientListBox and row = 0
+18:59:34.229 In LMiR review mode.
+18:59:34.229 ... after LMiR review mode... now entering LMiR edit mode...
+18:59:35.612 =================================================================
+18:59:35.612 
+18:59:35.612 Cycle through each Annotation (Text, Pictos, Arrows), add one of each, save, remove all labels.
+18:59:35.612 =================================================================
+19:00:23.579 In LMiR edit mode.
+19:00:48.979 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+19:01:21.063 Performing an operation. Total wait time 600 seconds
+19:02:26.774 Changing scanhead from L12-3 to P5-1
+19:02:41.401 Exam selected: Lung
+19:02:49.753 Choosing 'test option' from initial sequence, step [9]: Settings
+19:03:25.063 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+19:03:57.148 Performing an operation. Total wait time 660 seconds
+19:05:03.077 Changing scanhead from P5-1 to L12-3
+19:05:18.205 Exam selected: Carotid
+19:05:26.999 Choosing 'test option' at random, step [10]: Review
+19:05:27.001 Special handling of 'Review', will wait for thumbnail...
+19:05:29.347 Total wait time for thumbnail: 2 seconds
+19:05:29.434 Found thumbnail.
+19:05:58.700 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+19:06:30.633 Performing an operation. Total wait time 720 seconds
+19:07:36.386 Changing scanhead from L12-3 to P5-1
+19:07:50.781 Exam selected: Abdomen
+19:07:56.677 Choosing 'test option' at random, step [11]: Review
+19:07:56.678 Special handling of 'Review', will wait for thumbnail...
+19:07:56.784 Found thumbnail.
+19:08:25.148 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+19:08:56.944 Performing an operation. Total wait time 780 seconds
+19:10:02.544 Changing scanhead from P5-1 to L12-3
+19:10:17.952 Exam selected: Arterial
+19:10:24.390 Choosing 'test option' at random, step [12]: scenario_LMiR_review
+19:10:24.391 Entering LMiR review mode...
+19:11:12.598 Selecting study in PatientListBox, row 0
+19:11:12.600 Getting study select state for grid = PatientListBox and row = 0
+19:11:29.189 In LMiR review mode.
+19:11:47.389 Go to 'Report & Worksheet' and select each tab to generate the appropriate files if in an active study
+19:12:19.209 Performing an operation. Total wait time 840 seconds
+19:13:25.250 Changing scanhead from L12-3 to P5-1
+19:13:39.832 Exam selected: Orbital
+19:13:49.623 Choosing 'test option' at random, step [13]: scenario_LMiR_edit
+19:13:49.625 Entering LMiR edit mode... first into LMiR review mode...
+19:13:49.625 Entering LMiR review mode...
+19:14:37.543 Selecting study in PatientListBox, row 0
+19:14:37.543 Getting study select state for grid = PatientListBox and row = 0
+19:14:46.162 !!!! Exception Info !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+19:14:46.162 Exception RuntimeError:
+19:14:46.162   Error executing method RsiContextMenus::SelectItem on the target: Context menu is not open
+19:14:46.162 Gems currently used:
+19:14:46.791   did_you_mean (1.1.0)
+19:14:46.792   openssl (2.0.7)
+19:14:46.793   psych (2.2.2)
+19:14:46.793   sonosite-automated-test (1.1.10)
+19:14:46.793   sonosite-device-proxies (2.6.12)
+19:14:46.794   sonosite-model (2.6.12)
+19:14:46.794   sonosite-rsi-comm (1.1.5.6)
+19:14:46.794   sonosite-rsi-protocol (1.1.0)
+19:14:46.794 Call stack:
+19:14:46.794   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:190:in `eval'
+19:14:46.795   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:190:in `eval'
+19:14:46.795   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:190:in `block in object_call_with_eval'
+19:14:46.799   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:189:in `downto'
+19:14:46.800   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:189:in `object_call_with_eval'
+19:14:46.800   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/PHXui-proxy.rb:6038:in `select_item'
+19:14:46.800   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-model-2.6.12/lib/phx-object-model-ui.rb:1808:in `select_item'
+19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/lib/helper-methods.rb:4367:in `goto_review'
+19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:269:in `drive_scenario_LMiR_review'
+19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:280:in `drive_scenario_LMiR_edit'
+19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:132:in `block in execute'
+19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:81:in `times'
+19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:81:in `execute'
+19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/test-suite.rb:185:in `block in execute'
+19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/test-suite.rb:152:in `each'
+19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/test-suite.rb:152:in `execute'
+19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/test-suite.rb:124:in `execute_n_times'
+19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/run-tests.rb:230:in `run'
+19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/run-tests.rb:245:in `<top (required)>'
+19:14:46.802   C:/Ruby24/lib/ruby/site_ruby/2.4.0/rubygems/core_ext/kernel_require.rb:85:in `require'
+19:14:46.803   C:/Ruby24/lib/ruby/site_ruby/2.4.0/rubygems/core_ext/kernel_require.rb:85:in `require'
+19:14:46.803   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/bin/run-tests:3:in `<top (required)>'
+19:14:46.803   C:/Ruby24/bin/run-tests:23:in `load'
+19:14:46.803   C:/Ruby24/bin/run-tests:23:in `<top (required)>'
+19:14:46.803   C:/Users/bulmaro.herrera/.gem/ruby/2.4.0/gems/ruby-debug-ide-2.3.9.1/lib/ruby-debug-ide.rb:95:in `debug_load'
+19:14:46.803   C:/Users/bulmaro.herrera/.gem/ruby/2.4.0/gems/ruby-debug-ide-2.3.9.1/lib/ruby-debug-ide.rb:95:in `debug_program'
+19:14:46.803   C:/Users/bulmaro.herrera/.gem/ruby/2.4.0/gems/ruby-debug-ide-2.3.9.1/bin/rdebug-ide:211:in `<main>'
+19:14:46.804 Global variables:
+19:14:46.804   $binding: nil
+19:14:46.804   $program_Type: "PHX"
+19:14:46.804 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+19:14:48.214 ---------------------------------------------
+19:14:48.215 Memory usage: AvailablePhysical change: 70.43 MB (from 4.78 GB to 4.71 GB)
+19:14:48.215                AvailableVirtual change: 1.19 GB (from 127.99 TB to 127.99 TB)
+19:14:48.215                      MemoryLoad change: 1 B (from 39 B to 40 B)
+19:14:48.215 Test 1 of 1 has ended --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19:14:48.216 Test suite ended 2023-03-29 19:14:48 -0700
+19:14:48.217 ============================================================================================================================================================================================================================================================================================================
+19:14:48.217 Total tests run     = 1
+19:14:48.218 Failures noted      = 1
+19:14:48.218 Test suite duration = 35278.654995 seconds
+19:14:48.218 Test suite cycle 1 of 1 ended
+19:14:48.219 ============================================================================================================================================================================================================================================================================================================
