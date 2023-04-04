@@ -1,0 +1,38 @@
+##############################################################################
+# *Copyright*(c)::
+#   2019 by FujiFilm SonoSite Incorporated
+#   Contains Confidential Information - All Rights Reserved
+#
+# *Filename*::  usb-export-studies.ti
+# *Author(s)*:: Helen Canzler
+# *Description*::
+#     See Description section of ../common/usb-export-studies
+#
+##############################################################################
+
+if __FILE__ == $0
+  raise 'This script ' + __FILE__ + ' requires the automation test framework.'
+
+end
+
+# Product specific constants and lib files. Include in all .ti files.
+# Additional constants and lib files can be added as needed by the test
+require '../../../lib/constants-scanheads.rb'
+
+# This "declare_requirements_tested" statement is REQUIRED and must be a ruby hash.
+declare_requirements_tested({
+
+})
+
+declare_required_physical_attributes({"Scanhead" => Constants::SCANHEADS_ALL, "USBS" => ["any"], "Target" => ["Simulator", "Hardware"]})
+
+declare_test_class_name "UsbExportStudies"
+
+declare_test_class_require_path "../common/usb-export-studies.rb"
+
+declare_test_inputs({
+    num_exports: 30,
+    lmir_supported: true
+})
+
+declare_expected_results({})

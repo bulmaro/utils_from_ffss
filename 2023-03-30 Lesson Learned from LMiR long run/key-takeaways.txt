@@ -1,0 +1,115 @@
+* The test ran from 
+	09:26:49 to 19:14:48
+	or a little less than 10 hours
+* The last statements were:
+	19:13:49.625 Entering LMiR edit mode... first into LMiR review mode...
+	19:13:49.625 Entering LMiR review mode...
+	19:14:37.543 Selecting study in PatientListBox, row 0
+	19:14:37.543 Getting study select state for grid = PatientListBox and row = 0
+	19:14:46.162 !!!! Exception Info !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* There were 18 instances of "Entering LMiR edit mode... first into LMiR review mode..."
+	Which sufficiently proves the script itself (the logic) is good.
+	And the scenario itself is not 'deffective'
+* Likely it failed due to a 'timing' issue.
+* The latest implementation on my private branch to catch exceptions is VERY useful:
+	19:14:46.162 !!!! Exception Info !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	19:14:46.162 Exception RuntimeError:
+	19:14:46.162   Error executing method RsiContextMenus::SelectItem on the target: Context menu is not open
+	19:14:46.162 Gems currently used:
+	19:14:46.791   did_you_mean (1.1.0)
+	19:14:46.792   openssl (2.0.7)
+	19:14:46.793   psych (2.2.2)
+	19:14:46.793   sonosite-automated-test (1.1.10)
+	19:14:46.793   sonosite-device-proxies (2.6.12)
+	19:14:46.794   sonosite-model (2.6.12)
+	19:14:46.794   sonosite-rsi-comm (1.1.5.6)
+	19:14:46.794   sonosite-rsi-protocol (1.1.0)
+	19:14:46.794 Call stack:
+	19:14:46.794   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:190:in `eval'
+	19:14:46.795   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:190:in `eval'
+	19:14:46.795   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:190:in `block in object_call_with_eval'
+	19:14:46.799   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:189:in `downto'
+	19:14:46.800   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/rsi_object_call.rb:189:in `object_call_with_eval'
+	19:14:46.800   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-device-proxies-2.6.12/lib/PHXui-proxy.rb:6038:in `select_item'
+	19:14:46.800   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-model-2.6.12/lib/phx-object-model-ui.rb:1808:in `select_item'
+	19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/lib/helper-methods.rb:4367:in `goto_review'
+	19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:269:in `drive_scenario_LMiR_review'
+	19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:280:in `drive_scenario_LMiR_edit'
+	19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:132:in `block in execute'
+	19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:81:in `times'
+	19:14:46.801   C:/Users/bulmaro.herrera/work/test_scripts_1/software-engineering/application/study-list/common/usb-export-studies.rb:81:in `execute'
+	19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/test-suite.rb:185:in `block in execute'
+	19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/test-suite.rb:152:in `each'
+	19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/test-suite.rb:152:in `execute'
+	19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/test-suite.rb:124:in `execute_n_times'
+	19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/run-tests.rb:230:in `run'
+	19:14:46.802   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/lib/run-tests.rb:245:in `<top (required)>'
+	19:14:46.802   C:/Ruby24/lib/ruby/site_ruby/2.4.0/rubygems/core_ext/kernel_require.rb:85:in `require'
+	19:14:46.803   C:/Ruby24/lib/ruby/site_ruby/2.4.0/rubygems/core_ext/kernel_require.rb:85:in `require'
+	19:14:46.803   C:/Ruby24/lib/ruby/gems/2.4.0/gems/sonosite-automated-test-1.1.10/bin/run-tests:3:in `<top (required)>'
+	19:14:46.803   C:/Ruby24/bin/run-tests:23:in `load'
+	19:14:46.803   C:/Ruby24/bin/run-tests:23:in `<top (required)>'
+	19:14:46.803   C:/Users/bulmaro.herrera/.gem/ruby/2.4.0/gems/ruby-debug-ide-2.3.9.1/lib/ruby-debug-ide.rb:95:in `debug_load'
+	19:14:46.803   C:/Users/bulmaro.herrera/.gem/ruby/2.4.0/gems/ruby-debug-ide-2.3.9.1/lib/ruby-debug-ide.rb:95:in `debug_program'
+	19:14:46.803   C:/Users/bulmaro.herrera/.gem/ruby/2.4.0/gems/ruby-debug-ide-2.3.9.1/bin/rdebug-ide:211:in `<main>'
+	19:14:46.804 Global variables:
+	19:14:46.804   $binding: nil
+	19:14:46.804   $program_Type: "PHX"
+	19:14:46.804 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! It would be ideal to also capture the screenshot at the time of the exceptions
+! It would be even better to preserve the "last few seconds" of the UI
+	* this could be the last few snapshots... auto removing more than X images or older than S seconds???
+* The RSI extra logging generated for 10 hours...
+	- 210 millions lines of logging
+	- 205 MB
+* The last RSI log lines read: (and are worth studying to learn)
+	19:14:46.160 recv_worker(31297848): About to read
+	19:14:46.160 recv_worker(31297848): read: 39 08 B6BA (03 raise RuntimeError, <<'**EOF**';
+	Error executing method RsiContextMenus::SelectItem on the target: Context menu is not open
+	**EOF**
+	 ))
+	19:14:46.160 recv_worker(31297848): We didn't raise exception! because s is not nil
+	19:14:46.160 recv_worker(31297848): at end of packet read loop. pkt: (000000A0 39 08 B6BA (03 raise RuntimeError, <<'**EOF**';
+	Error executing method RsiContextMenus::SelectItem on the target: Context menu is not open
+	**EOF**
+	 )), length: 0
+	19:14:46.160 recv_worker(31297848): exited packet read loop. pkt: (000000A0 39 08 B6BA (03 raise RuntimeError, <<'**EOF**';
+	Error executing method RsiContextMenus::SelectItem on the target: Context menu is not open
+	**EOF**
+	 )), length: 0
+	19:14:46.160 recv_worker(31297848): about to add pkt: (000000A0 39 08 B6BA (03 raise RuntimeError, <<'**EOF**';
+	Error executing method RsiContextMenus::SelectItem on the target: Context menu is not open
+	**EOF**
+	 ))
+	19:14:46.160 recv_worker(31297848): about to exit
+	19:14:46.160 recv: "[\"(000000A0\\u000039\\u000008\\u0000B6BA\\u0000(03\\u0000raise RuntimeError, <<'**EOF**';\\nError executing method RsiContextMenus::SelectItem on the target: Context menu is not open\\n**EOF**\\n\\u0000))\"]"
+* The rsiLog.txt file is very short... it reinitialized when the last connection was lost and we regained it to get the memory statistics
+? We should not overwrite the rsiLog.txt everytime... why is it separate than the other 'rsi' log? 
+--------------------------------------------
+After studying closely all the logs...
+- the RSI log was contaminated by the exception message
+- but that apparently was not corruption of the communication stream
+- but more an asynchronous evidence in the nature of an exception that was being handled
+  through the normal/expected thread-breaking way of exception handling
+- the true cause of the problem was the absence of the UI element expected on:
+  helper-methods.rb:4367:context_menus.select_item(CNTXT_MENU['VIEW'], CNTXT_MENU['REVIEW'])
+- I think the RSI comm gem is mature
+- I think the test framework would benefit from an auto-screenshot-capture  
+  at time of exception
+- I think we automatically should log each command we send over the wire:
+  - The .ti-RSI log we have is too much about the recv & send package bytes
+  - the rsiLog.txt is reset everytime and equally geared
+-------------------------------------------
+ACTION ITEMS:
+1) Remove doubts RSI comm gem is unstable
+2) Remove doubt LMiR script is unstable
+3) Implement an auto-screenshot-capture
+4) Investigate & fix rsiLog
+   - why is it different
+   - label it differently
+   - label the correspondingly adequately
+   - make sure it is preserved
+5) Implement a log of NOT rsi bytes but
+   Object Model messages
+
+
